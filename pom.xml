@@ -11,6 +11,7 @@
     <modules>
         <module>lius_shop_common</module>
         <module>lius_shop_base</module>
+        <module>lius_shop_api</module>
     </modules>
 
 

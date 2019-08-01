@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lius_shop_base" />
         <module name="lius_shop_common" />
+        <module name="lius_shop_api" />
       </profile>
     </annotationProcessing>
   </component>
