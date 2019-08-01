@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lius_shop_api_imlp" />
         <module name="lius_shop_base" />
         <module name="lius_shop_common" />
         <module name="lius_shop_api" />
