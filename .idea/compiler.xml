@@ -13,4 +13,12 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lius_shop_api" options="-parameters" />
+      <module name="lius_shop_api_imlp" options="-parameters" />
+      <module name="lius_shop_base" options="-parameters" />
+      <module name="lius_shop_common" options="-parameters" />
+    </option>
+  </component>
 </project>
