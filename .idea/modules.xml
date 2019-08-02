@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lius_shop_common/lius_shop_common.iml" filepath="$PROJECT_DIR$/lius_shop_common/lius_shop_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lius_shop_job/lius_shop_job.iml" filepath="$PROJECT_DIR$/lius_shop_job/lius_shop_job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lius_shop_pay/lius_shop_pay.iml" filepath="$PROJECT_DIR$/lius_shop_pay/lius_shop_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lius_shop_portal/lius_shop_portal.iml" filepath="$PROJECT_DIR$/lius_shop_portal/lius_shop_portal.iml" />
+    </modules>
+  </component>
+</project>

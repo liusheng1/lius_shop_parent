@@ -10,6 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>lius_shop_basics</module>
+        <module>lius_shop_common</module>
+        <module>lius_shop_service_api</module>
+        <module>lius_shop_service_api_impl</module>
+        <module>lius_shop_api_dto</module>
+        <module>lius_shop_portal</module>
+        <module>lius_shop_job</module>
+        <module>lius_shop_pay</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

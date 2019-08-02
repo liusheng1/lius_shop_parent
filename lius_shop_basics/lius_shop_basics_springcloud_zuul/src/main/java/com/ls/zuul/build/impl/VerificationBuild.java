@@ -10,15 +10,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSONObject;
-
-import com.ls.base.BaseResponse;
-import com.ls.constants.Constants;
-import com.ls.sign.SignUtil;
 import com.ls.zuul.build.GatewayBuild;
 import com.ls.zuul.feign.AuthorizationServiceFeign;
 import com.ls.zuul.mapper.BlacklistMapper;
 import com.ls.zuul.mapper.entity.MeiteBlacklist;
 import com.netflix.zuul.context.RequestContext;
+import com.ls.base.BaseResponse;
+import com.ls.constants.Constants;
+import com.ls.sign.SignUtil;
 
 import lombok.extern.slf4j.Slf4j;
 

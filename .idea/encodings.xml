@@ -2,17 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lius_shop_api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lius_shop_api_impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_api_dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_elk_kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_springcloud_eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_springcloud_zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_xxl_sso_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lius_shop_dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_common/lius_shop_common_core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_common/lius_shop_common_web_core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api/lius_shop_service_api_auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api_impl" charset="UTF-8" />
   </component>
 </project>
