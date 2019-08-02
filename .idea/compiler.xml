@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lius_shop_api" />
-        <module name="lius_shop_basics" />
-        <module name="lius_shop_common" />
+        <module name="lius_shop_pay" />
+        <module name="lius_shop_portal" />
         <module name="lius_shop_api_impl" />
+        <module name="lius_shop_basics" />
+        <module name="lius_shop_dto" />
+        <module name="lius_shop_job" />
+        <module name="lius_shop_api" />
+        <module name="lius_shop_common" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +23,10 @@
       <module name="lius_shop_api_impl" options="-parameters" />
       <module name="lius_shop_basics" options="-parameters" />
       <module name="lius_shop_common" options="-parameters" />
+      <module name="lius_shop_dto" options="-parameters" />
+      <module name="lius_shop_job" options="-parameters" />
+      <module name="lius_shop_pay" options="-parameters" />
+      <module name="lius_shop_portal" options="-parameters" />
     </option>
   </component>
 </project>

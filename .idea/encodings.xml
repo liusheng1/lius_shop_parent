@@ -6,5 +6,9 @@
     <file url="file://$PROJECT_DIR$/lius_shop_api_impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_portal" charset="UTF-8" />
   </component>
 </project>
