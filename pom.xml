@@ -13,6 +13,7 @@
         <module>lius_shop_base</module>
         <module>lius_shop_api</module>
         <module>lius_shop_api_imlp</module>
+        <module>lius_shop_dto</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
