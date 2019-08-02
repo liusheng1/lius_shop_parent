@@ -6,22 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lius_shop_pay" />
-        <module name="lius_shop_portal" />
-        <module name="lius_shop_api_impl" />
-        <module name="lius_shop_basics" />
-        <module name="lius_shop_dto" />
-        <module name="lius_shop_job" />
-        <module name="lius_shop_api" />
-        <module name="lius_shop_common" />
+        <module name="lius_shop_basics_elk_kafka" />
+        <module name="lius_shop_basics_xxl_sso_server" />
+        <module name="lius_shop_basics_springcloud_zuul" />
+        <module name="lius_shop_basics_springcloud_eureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lius_shop_api" target="1.8" />
+      <module name="lius_shop_api_impl" target="1.8" />
+      <module name="lius_shop_common" target="1.8" />
+      <module name="lius_shop_dto" target="1.8" />
+      <module name="lius_shop_job" target="1.8" />
+      <module name="lius_shop_pay" target="1.8" />
+      <module name="lius_shop_portal" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lius_shop_api" options="-parameters" />
       <module name="lius_shop_api_impl" options="-parameters" />
-      <module name="lius_shop_basics" options="-parameters" />
+      <module name="lius_shop_basics" options="" />
+      <module name="lius_shop_basics_elk_kafka" options="-parameters" />
+      <module name="lius_shop_basics_springcloud_eureka" options="-parameters" />
+      <module name="lius_shop_basics_springcloud_zuul" options="-parameters" />
+      <module name="lius_shop_basics_xxl_sso_server" options="-parameters" />
       <module name="lius_shop_common" options="-parameters" />
       <module name="lius_shop_dto" options="-parameters" />
       <module name="lius_shop_job" options="-parameters" />

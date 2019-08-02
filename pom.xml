@@ -9,14 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>lius_shop_common</module>
         <module>lius_shop_basics</module>
-        <module>lius_shop_api</module>
-        <module>lius_shop_api_impl</module>
-        <module>lius_shop_dto</module>
-        <module>lius_shop_portal</module>
-        <module>lius_shop_job</module>
-        <module>lius_shop_pay</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
