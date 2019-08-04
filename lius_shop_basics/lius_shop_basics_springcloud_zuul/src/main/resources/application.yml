@@ -4,7 +4,7 @@ server:
 ###服务名称(服务注册到eureka名称)  
 spring:
   application:
-    name:  app-mayikt-zuul
+    name:  app-shop-zuul
   redis:
     host: 127.0.0.1
     port: 6379
@@ -17,7 +17,7 @@ spring:
 ###数据库相关连接      
   datasource:
     username: root
-    password: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/meite_gateway?useUnicode=true&characterEncoding=UTF-8
 ###服务注册到eureka地址
@@ -33,19 +33,19 @@ zuul:
     api-a:
      ### 以 /api-weixin/访问转发到会员服务
       path: /api-weixin/**
-      serviceId: app-mayikt-weixin
+      serviceId: app-shop-weixin
     api-b:
         ### 以 /api-member/访问转发到订单服务
       path: /api-member/**
-      serviceId: app-mayikt-member
+      serviceId: app-shop-member
     api-c:
         ### 以 /api-pay/访问转发到订单服务
       path: /api-pay/**
-      serviceId: app-mayikt-pay     
+      serviceId: app-shop-pay
     api-d:
         ### 以 /api-pay/访问转发到订单服务
       path: /api-spike/**
-      serviceId: app-mayikt-spike     
+      serviceId: app-shop-spike
 mayikt: 
   zuul: 
     swagger: 

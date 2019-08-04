@@ -40,7 +40,7 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 @EnableEurekaClient
 @EnableZuulProxy
 @EnableSwagger2Doc
-@MapperScan(basePackages = "com.mayikt.zuul")
+@MapperScan(basePackages = "com.ls.zuul")
 // @EnableApolloConfig
 @EnableFeignClients
 public class AppGateWay {

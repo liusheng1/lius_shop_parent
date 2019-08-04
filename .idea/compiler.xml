@@ -6,18 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lius_shop_basics_elk_kafka" />
-        <module name="lius_shop_portal" />
-        <module name="lius_shop_api_dto" />
+        <module name="lius_shop_service_api_order" />
         <module name="lius_shop_job" />
-        <module name="lius_shop_common_core" />
-        <module name="lius_shop_basics_springcloud_eureka" />
-        <module name="lius_shop_pay" />
-        <module name="lius_shop_service_api_auth" />
-        <module name="lius_shop_basics_springcloud_zuul" />
+        <module name="lius_shop_api_dto" />
         <module name="lius_shop_basics_xxl_sso_server" />
-        <module name="lius_shop_service_api_impl" />
+        <module name="lius_shop_portal" />
+        <module name="lius_shop_common_core" />
+        <module name="lius_shop_service_api_goods" />
+        <module name="lius_shop_basics_springcloud_zuul" />
+        <module name="lius_shop_api_member_entity" />
+        <module name="lius_shop_pay" />
         <module name="lius_shop_common_web_core" />
+        <module name="lius_shop_basics_elk_kafka" />
+        <module name="lius_shop_api_order_entity" />
+        <module name="lius_shop_service_api_impl" />
+        <module name="lius_shop_service_api_pay" />
+        <module name="lius_shop_basics_springcloud_eureka" />
+        <module name="lius_shop_service_api_member" />
+        <module name="lius_shop_service_api_auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +41,8 @@
       <module name="lius_shop_api" options="-parameters" />
       <module name="lius_shop_api_dto" options="-parameters" />
       <module name="lius_shop_api_impl" options="-parameters" />
+      <module name="lius_shop_api_member_entity" options="-parameters" />
+      <module name="lius_shop_api_order_entity" options="-parameters" />
       <module name="lius_shop_basics" options="" />
       <module name="lius_shop_basics_elk_kafka" options="-parameters" />
       <module name="lius_shop_basics_springcloud_eureka" options="-parameters" />
@@ -48,7 +56,11 @@
       <module name="lius_shop_pay" options="-parameters" />
       <module name="lius_shop_portal" options="-parameters" />
       <module name="lius_shop_service_api_auth" options="-parameters" />
+      <module name="lius_shop_service_api_goods" options="-parameters" />
       <module name="lius_shop_service_api_impl" options="-parameters" />
+      <module name="lius_shop_service_api_member" options="-parameters" />
+      <module name="lius_shop_service_api_order" options="-parameters" />
+      <module name="lius_shop_service_api_pay" options="-parameters" />
     </option>
   </component>
 </project>

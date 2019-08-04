@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lius_shop_api_entitys/lius_shop_api_weixin_entity/lius_shop_api_weixin_entity.iml" filepath="$PROJECT_DIR$/lius_shop_api_entitys/lius_shop_api_weixin_entity/lius_shop_api_weixin_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/lius_shop_common/lius_shop_common.iml" filepath="$PROJECT_DIR$/lius_shop_common/lius_shop_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/lius_shop_job/lius_shop_job.iml" filepath="$PROJECT_DIR$/lius_shop_job/lius_shop_job.iml" />
       <module fileurl="file://$PROJECT_DIR$/lius_shop_pay/lius_shop_pay.iml" filepath="$PROJECT_DIR$/lius_shop_pay/lius_shop_pay.iml" />

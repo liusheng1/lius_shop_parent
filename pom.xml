@@ -17,6 +17,7 @@
         <module>lius_shop_portal</module>
         <module>lius_shop_job</module>
         <module>lius_shop_pay</module>
+        <module>lius_shop_api_entitys</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
