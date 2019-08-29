@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>lius_shop_api_dto</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lius_shop_api_member_dto</module>
+    </modules>
 
 
 </project>

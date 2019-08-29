@@ -3,9 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_api_dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_api_dto/lius_shop_api_member_dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_api_entitys" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_api_entitys/lius_shop_api_member_entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_api_entitys/lius_shop_api_order_entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_api_entitys/lius_shop_api_weixin_entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_elk_kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_basics/lius_shop_basics_springcloud_eureka" charset="UTF-8" />
@@ -23,6 +25,9 @@
     <file url="file://$PROJECT_DIR$/lius_shop_service_api/lius_shop_service_api_member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_service_api/lius_shop_service_api_order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_service_api/lius_shop_service_api_pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api/lius_shop_service_api_weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lius_shop_service_api_impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api_impl/lius_shop_service_api_member_impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lius_shop_service_api_impl/lius_shop_service_api_weixin_impl" charset="UTF-8" />
   </component>
 </project>

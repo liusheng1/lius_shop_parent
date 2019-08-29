@@ -1,27 +1,25 @@
-package com.mayikt.member;
+package com.ls.member;
 
+import com.alibaba.fastjson.JSONObject;
+import com.ls.base.BaseResponse;
+import com.ls.member.input.dto.UserInDTO;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import com.alibaba.fastjson.JSONObject;
-import com.mayikt.base.BaseResponse;
-import com.mayikt.member.entity.UserEntity;
-
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 
 @Api(tags = "会员注册接口")
 public interface MemberRegisterService {
 	/**
 	 * 用户注册接口
 	 * 
-	 * @param userEntity
+	 * @param userInDTO
 	 * @return
 	 */
 	@PostMapping("/register")
 	@ApiOperation(value = "会员用户注册信息接口")
-	BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity,
+	BaseResponse<JSONObject> register(@RequestBody UserInDTO userInDTO,
 			@RequestParam("registCode") String registCode);
 
 }

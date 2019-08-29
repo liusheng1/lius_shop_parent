@@ -12,9 +12,20 @@
     <artifactId>lius_shop_common</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lius_shop_common_web_core</module>
         <module>lius_shop_common_core</module>
     </modules>
-
+    <dependencies>
+        <!-- mybatis相关依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <!-- mysql 依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

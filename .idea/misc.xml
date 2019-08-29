@@ -10,7 +10,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/lius_shop_api/pom.xml" />
+        <option value="$PROJECT_DIR$/lius_shop_api_entitys/pom.xml" />
         <option value="$PROJECT_DIR$/lius_shop_api_impl/pom.xml" />
+        <option value="$PROJECT_DIR$/lius_shop_common/lius_shop_common_web_core/pom.xml" />
         <option value="$PROJECT_DIR$/lius_shop_common/pom.xml" />
         <option value="$PROJECT_DIR$/lius_shop_dto/pom.xml" />
         <option value="$PROJECT_DIR$/lius_shop_job/pom.xml" />

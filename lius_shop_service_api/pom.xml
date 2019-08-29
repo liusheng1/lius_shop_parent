@@ -17,6 +17,7 @@
         <module>lius_shop_service_api_goods</module>
         <module>lius_shop_service_api_pay</module>
         <module>lius_shop_service_api_order</module>
+        <module>lius_shop_service_api_weixin</module>
     </modules>
     <dependencies>
         <dependency>
