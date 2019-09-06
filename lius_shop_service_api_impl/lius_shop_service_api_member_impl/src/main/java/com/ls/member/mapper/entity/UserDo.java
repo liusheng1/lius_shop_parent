@@ -1,6 +1,5 @@
 package com.ls.member.mapper.entity;
 
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.util.Date;
@@ -30,8 +29,7 @@ public class UserDo {
     /**
      * 密码
      */
-        @ApiModelProperty(value = "密码")
-        private String password;
+    private String password;
     /**
      * 用户名称
      */
@@ -54,7 +52,6 @@ public class UserDo {
     private Date createTime;
     /**
      * 修改时间
-     *
      */
 
     private Date updateTime;

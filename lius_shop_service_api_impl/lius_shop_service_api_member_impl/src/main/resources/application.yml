@@ -18,7 +18,7 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/shop_member?useSSL=true
+    url: jdbc:mysql://127.0.0.1:3306/shop_member?useSSL=true&characterEncoding=UTF-8
     ####打印MyBatias日志
   logging:
     level:

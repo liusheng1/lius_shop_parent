@@ -15,7 +15,7 @@ import java.util.Date;
  * @since 1.0.0
  */
 @Data
-@ApiModel(value = "用户中注册")
+@ApiModel(value = "用户中注册1")
 public class UserInDTO {
 
 
@@ -54,23 +54,6 @@ public class UserInDTO {
          */
         @ApiModelProperty(value = "用户年龄")
         private Long age;
-        //注册不需要这些参数
-       /* *//**
-         * 注册时间
-         *//*
-        @ApiModelProperty(value = "创建时间")
-        private Date createTime;
-        *//**
-         * 修改时间
-         *
-         *//*
-        @ApiModelProperty(value = "修改时间")
-        private Date updateTime;
-        *//**
-         * 账号是否可以用 1 正常 0冻结
-         *//*
-        @ApiModelProperty(value = "账号是否可以用 1 正常 0冻结")
-        private char is_avalible;*/
         /**
          * 用户头像
          */
