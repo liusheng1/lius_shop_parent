@@ -1,0 +1,927 @@
+178293309 DEBUG [2019-09-12 23:07:06]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "Accept-Encoding: gzip[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "Content-Length: 0[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "Host: localhost:8100[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "Connection: Keep-Alive[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]   >> "[\r][\n]"
+178293310 DEBUG [2019-09-12 23:07:06]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178293311 DEBUG [2019-09-12 23:07:06]  >> DiscoveryIdentity-Name: DefaultClient
+178293311 DEBUG [2019-09-12 23:07:06]  >> DiscoveryIdentity-Version: 1.4
+178293311 DEBUG [2019-09-12 23:07:06]  >> DiscoveryIdentity-Id: 192.168.1.36
+178293311 DEBUG [2019-09-12 23:07:06]  >> Accept-Encoding: gzip
+178293311 DEBUG [2019-09-12 23:07:06]  >> Content-Length: 0
+178293311 DEBUG [2019-09-12 23:07:06]  >> Host: localhost:8100
+178293311 DEBUG [2019-09-12 23:07:06]  >> Connection: Keep-Alive
+178293311 DEBUG [2019-09-12 23:07:06]  >> User-Agent: Java-EurekaClient/v1.8.6
+178293313 DEBUG [2019-09-12 23:07:06]   << "HTTP/1.1 200 [\r][\n]"
+178293313 DEBUG [2019-09-12 23:07:06]   << "Content-Type: application/xml[\r][\n]"
+178293313 DEBUG [2019-09-12 23:07:06]   << "Content-Length: 0[\r][\n]"
+178293313 DEBUG [2019-09-12 23:07:06]   << "Date: Thu, 12 Sep 2019 15:07:06 GMT[\r][\n]"
+178293313 DEBUG [2019-09-12 23:07:06]   << "[\r][\n]"
+178293313 DEBUG [2019-09-12 23:07:06]  Receiving response: HTTP/1.1 200 
+178293313 DEBUG [2019-09-12 23:07:06]  << HTTP/1.1 200 
+178293313 DEBUG [2019-09-12 23:07:06]  << Content-Type: application/xml
+178293313 DEBUG [2019-09-12 23:07:06]  << Content-Length: 0
+178293313 DEBUG [2019-09-12 23:07:06]  << Date: Thu, 12 Sep 2019 15:07:06 GMT
+178293313 DEBUG [2019-09-12 23:07:06]  Connection can be kept alive indefinitely
+178293313 DEBUG [2019-09-12 23:07:06]  Released connection is reusable.
+178293313 DEBUG [2019-09-12 23:07:06]  Releasing connection [{}->http://localhost:8100][null]
+178293313 DEBUG [2019-09-12 23:07:06]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178293313 DEBUG [2019-09-12 23:07:06]  Notifying no-one, there are no waiting threads
+178294200 DEBUG [2019-09-12 23:07:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178294200 DEBUG [2019-09-12 23:07:07]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178294200 DEBUG [2019-09-12 23:07:07]  Getting free connection [{}->http://localhost:8100][null]
+178294200 DEBUG [2019-09-12 23:07:07]  Stale connection check
+178294201 DEBUG [2019-09-12 23:07:07]  CookieSpec selected: default
+178294201 DEBUG [2019-09-12 23:07:07]  Auth cache not set in the context
+178294201 DEBUG [2019-09-12 23:07:07]  Target auth state: UNCHALLENGED
+178294201 DEBUG [2019-09-12 23:07:07]  Proxy auth state: UNCHALLENGED
+178294201 DEBUG [2019-09-12 23:07:07]  Attempt 1 to execute request
+178294201 DEBUG [2019-09-12 23:07:07]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178294201 DEBUG [2019-09-12 23:07:07]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "Accept: application/json[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "Host: localhost:8100[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "Connection: Keep-Alive[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]   >> "[\r][\n]"
+178294201 DEBUG [2019-09-12 23:07:07]  >> GET /eureka/apps/delta HTTP/1.1
+178294201 DEBUG [2019-09-12 23:07:07]  >> Accept: application/json
+178294201 DEBUG [2019-09-12 23:07:07]  >> DiscoveryIdentity-Name: DefaultClient
+178294201 DEBUG [2019-09-12 23:07:07]  >> DiscoveryIdentity-Version: 1.4
+178294201 DEBUG [2019-09-12 23:07:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178294201 DEBUG [2019-09-12 23:07:07]  >> Accept-Encoding: gzip
+178294201 DEBUG [2019-09-12 23:07:07]  >> Host: localhost:8100
+178294201 DEBUG [2019-09-12 23:07:07]  >> Connection: Keep-Alive
+178294201 DEBUG [2019-09-12 23:07:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178294204 DEBUG [2019-09-12 23:07:07]   << "HTTP/1.1 200 [\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]   << "Content-Encoding: gzip[\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]   << "Content-Type: application/json[\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]   << "Content-Length: 87[\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]   << "Date: Thu, 12 Sep 2019 15:07:06 GMT[\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]   << "[\r][\n]"
+178294204 DEBUG [2019-09-12 23:07:07]  Receiving response: HTTP/1.1 200 
+178294204 DEBUG [2019-09-12 23:07:07]  << HTTP/1.1 200 
+178294204 DEBUG [2019-09-12 23:07:07]  << Content-Encoding: gzip
+178294204 DEBUG [2019-09-12 23:07:07]  << Content-Type: application/json
+178294204 DEBUG [2019-09-12 23:07:07]  << Content-Length: 87
+178294204 DEBUG [2019-09-12 23:07:07]  << Date: Thu, 12 Sep 2019 15:07:06 GMT
+178294204 DEBUG [2019-09-12 23:07:07]  Connection can be kept alive indefinitely
+178294204 DEBUG [2019-09-12 23:07:07]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r][0x8c][0x95]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0][0xe1][0x0]r2T[0x0][0x0][0x0]"
+178294204 DEBUG [2019-09-12 23:07:07]  Released connection is reusable.
+178294204 DEBUG [2019-09-12 23:07:07]  Releasing connection [{}->http://localhost:8100][null]
+178294204 DEBUG [2019-09-12 23:07:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178294204 DEBUG [2019-09-12 23:07:07]  Notifying no-one, there are no waiting threads
+178302068 DEBUG [2019-09-12 23:07:15]  Closing expired connections
+178304419 DEBUG [2019-09-12 23:07:18]  Closing expired connections
+178304513 DEBUG [2019-09-12 23:07:18]  Returning cached instance of singleton bean 'eurekaClient'
+178304513 DEBUG [2019-09-12 23:07:18]  Returning cached instance of singleton bean 'eurekaClient'
+178304513 DEBUG [2019-09-12 23:07:18]  Returning cached instance of singleton bean 'eurekaClient'
+178304513 DEBUG [2019-09-12 23:07:18]  Returning cached instance of singleton bean 'eurekaClient'
+178317479 DEBUG [2019-09-12 23:07:31]  Closing connections idle longer than 30000 SECONDS
+178317479 DEBUG [2019-09-12 23:07:31]  Closing connections idle longer than 30000 SECONDS
+178318402 DEBUG [2019-09-12 23:07:32]  Closing connections idle longer than -1 SECONDS
+178318402 DEBUG [2019-09-12 23:07:32]  Closing connections idle longer than 0 SECONDS
+178318402 DEBUG [2019-09-12 23:07:32]  Closing connection last used @ Thu Sep 12 23:07:07 CST 2019
+178318402 DEBUG [2019-09-12 23:07:32]  Deleting connection [{}->http://localhost:8100][null]
+178318402 DEBUG [2019-09-12 23:07:32]  Connection 0.0.0.0:63123<->127.0.0.1:8100 closed
+178323315 DEBUG [2019-09-12 23:07:36]  Get connection: {}->http://localhost:8100, timeout = 5000
+178323315 DEBUG [2019-09-12 23:07:36]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178323315 DEBUG [2019-09-12 23:07:36]  No free connections [{}->http://localhost:8100][null]
+178323315 DEBUG [2019-09-12 23:07:36]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178323315 DEBUG [2019-09-12 23:07:36]  Creating new connection [{}->http://localhost:8100]
+178323316 DEBUG [2019-09-12 23:07:36]  Connecting to localhost:8100
+178323317 DEBUG [2019-09-12 23:07:36]  CookieSpec selected: default
+178323317 DEBUG [2019-09-12 23:07:36]  Auth cache not set in the context
+178323317 DEBUG [2019-09-12 23:07:36]  Target auth state: UNCHALLENGED
+178323317 DEBUG [2019-09-12 23:07:36]  Proxy auth state: UNCHALLENGED
+178323317 DEBUG [2019-09-12 23:07:36]  Attempt 1 to execute request
+178323317 DEBUG [2019-09-12 23:07:36]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178323317 DEBUG [2019-09-12 23:07:36]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "Accept-Encoding: gzip[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "Content-Length: 0[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "Host: localhost:8100[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "Connection: Keep-Alive[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]   >> "[\r][\n]"
+178323317 DEBUG [2019-09-12 23:07:36]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178323317 DEBUG [2019-09-12 23:07:36]  >> DiscoveryIdentity-Name: DefaultClient
+178323317 DEBUG [2019-09-12 23:07:36]  >> DiscoveryIdentity-Version: 1.4
+178323317 DEBUG [2019-09-12 23:07:36]  >> DiscoveryIdentity-Id: 192.168.1.36
+178323317 DEBUG [2019-09-12 23:07:36]  >> Accept-Encoding: gzip
+178323317 DEBUG [2019-09-12 23:07:36]  >> Content-Length: 0
+178323317 DEBUG [2019-09-12 23:07:36]  >> Host: localhost:8100
+178323317 DEBUG [2019-09-12 23:07:36]  >> Connection: Keep-Alive
+178323317 DEBUG [2019-09-12 23:07:36]  >> User-Agent: Java-EurekaClient/v1.8.6
+178323319 DEBUG [2019-09-12 23:07:36]   << "HTTP/1.1 200 [\r][\n]"
+178323319 DEBUG [2019-09-12 23:07:36]   << "Content-Type: application/xml[\r][\n]"
+178323319 DEBUG [2019-09-12 23:07:36]   << "Content-Length: 0[\r][\n]"
+178323319 DEBUG [2019-09-12 23:07:36]   << "Date: Thu, 12 Sep 2019 15:07:36 GMT[\r][\n]"
+178323319 DEBUG [2019-09-12 23:07:36]   << "[\r][\n]"
+178323320 DEBUG [2019-09-12 23:07:36]  Receiving response: HTTP/1.1 200 
+178323320 DEBUG [2019-09-12 23:07:36]  << HTTP/1.1 200 
+178323320 DEBUG [2019-09-12 23:07:36]  << Content-Type: application/xml
+178323320 DEBUG [2019-09-12 23:07:36]  << Content-Length: 0
+178323320 DEBUG [2019-09-12 23:07:36]  << Date: Thu, 12 Sep 2019 15:07:36 GMT
+178323320 DEBUG [2019-09-12 23:07:36]  Connection can be kept alive indefinitely
+178323320 DEBUG [2019-09-12 23:07:36]  Released connection is reusable.
+178323320 DEBUG [2019-09-12 23:07:36]  Releasing connection [{}->http://localhost:8100][null]
+178323320 DEBUG [2019-09-12 23:07:36]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178323320 DEBUG [2019-09-12 23:07:36]  Notifying no-one, there are no waiting threads
+178324207 DEBUG [2019-09-12 23:07:37]  Get connection: {}->http://localhost:8100, timeout = 5000
+178324207 DEBUG [2019-09-12 23:07:37]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178324207 DEBUG [2019-09-12 23:07:37]  Getting free connection [{}->http://localhost:8100][null]
+178324207 DEBUG [2019-09-12 23:07:37]  Stale connection check
+178324209 DEBUG [2019-09-12 23:07:37]  CookieSpec selected: default
+178324209 DEBUG [2019-09-12 23:07:37]  Auth cache not set in the context
+178324209 DEBUG [2019-09-12 23:07:37]  Target auth state: UNCHALLENGED
+178324209 DEBUG [2019-09-12 23:07:37]  Proxy auth state: UNCHALLENGED
+178324209 DEBUG [2019-09-12 23:07:37]  Attempt 1 to execute request
+178324209 DEBUG [2019-09-12 23:07:37]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178324209 DEBUG [2019-09-12 23:07:37]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "Accept: application/json[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "Accept-Encoding: gzip[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "Host: localhost:8100[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "Connection: Keep-Alive[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]   >> "[\r][\n]"
+178324209 DEBUG [2019-09-12 23:07:37]  >> GET /eureka/apps/delta HTTP/1.1
+178324209 DEBUG [2019-09-12 23:07:37]  >> Accept: application/json
+178324209 DEBUG [2019-09-12 23:07:37]  >> DiscoveryIdentity-Name: DefaultClient
+178324209 DEBUG [2019-09-12 23:07:37]  >> DiscoveryIdentity-Version: 1.4
+178324209 DEBUG [2019-09-12 23:07:37]  >> DiscoveryIdentity-Id: 192.168.1.36
+178324209 DEBUG [2019-09-12 23:07:37]  >> Accept-Encoding: gzip
+178324210 DEBUG [2019-09-12 23:07:37]  >> Host: localhost:8100
+178324210 DEBUG [2019-09-12 23:07:37]  >> Connection: Keep-Alive
+178324210 DEBUG [2019-09-12 23:07:37]  >> User-Agent: Java-EurekaClient/v1.8.6
+178324213 DEBUG [2019-09-12 23:07:37]   << "HTTP/1.1 200 [\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]   << "Content-Encoding: gzip[\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]   << "Content-Type: application/json[\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]   << "Content-Length: 87[\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]   << "Date: Thu, 12 Sep 2019 15:07:36 GMT[\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]   << "[\r][\n]"
+178324213 DEBUG [2019-09-12 23:07:37]  Receiving response: HTTP/1.1 200 
+178324213 DEBUG [2019-09-12 23:07:37]  << HTTP/1.1 200 
+178324213 DEBUG [2019-09-12 23:07:37]  << Content-Encoding: gzip
+178324213 DEBUG [2019-09-12 23:07:37]  << Content-Type: application/json
+178324213 DEBUG [2019-09-12 23:07:37]  << Content-Length: 87
+178324213 DEBUG [2019-09-12 23:07:37]  << Date: Thu, 12 Sep 2019 15:07:36 GMT
+178324213 DEBUG [2019-09-12 23:07:37]  Connection can be kept alive indefinitely
+178324213 DEBUG [2019-09-12 23:07:37]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r][0x8c][0x95]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0][0xe1][0x0]r2T[0x0][0x0][0x0]"
+178324213 DEBUG [2019-09-12 23:07:37]  Released connection is reusable.
+178324213 DEBUG [2019-09-12 23:07:37]  Releasing connection [{}->http://localhost:8100][null]
+178324213 DEBUG [2019-09-12 23:07:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178324213 DEBUG [2019-09-12 23:07:37]  Notifying no-one, there are no waiting threads
+178332079 DEBUG [2019-09-12 23:07:45]  Closing expired connections
+178334420 DEBUG [2019-09-12 23:07:48]  Closing expired connections
+178334514 DEBUG [2019-09-12 23:07:48]  Returning cached instance of singleton bean 'eurekaClient'
+178334514 DEBUG [2019-09-12 23:07:48]  Returning cached instance of singleton bean 'eurekaClient'
+178334514 DEBUG [2019-09-12 23:07:48]  Returning cached instance of singleton bean 'eurekaClient'
+178334514 DEBUG [2019-09-12 23:07:48]  Returning cached instance of singleton bean 'eurekaClient'
+178347499 DEBUG [2019-09-12 23:08:01]  Closing connections idle longer than 30000 SECONDS
+178347499 DEBUG [2019-09-12 23:08:01]  Closing connections idle longer than 30000 SECONDS
+178348404 DEBUG [2019-09-12 23:08:02]  Closing connections idle longer than -1 SECONDS
+178348404 DEBUG [2019-09-12 23:08:02]  Closing connections idle longer than 0 SECONDS
+178348404 DEBUG [2019-09-12 23:08:02]  Closing connection last used @ Thu Sep 12 23:07:37 CST 2019
+178348404 DEBUG [2019-09-12 23:08:02]  Deleting connection [{}->http://localhost:8100][null]
+178348405 DEBUG [2019-09-12 23:08:02]  Connection 0.0.0.0:63131<->127.0.0.1:8100 closed
+178353322 DEBUG [2019-09-12 23:08:06]  Get connection: {}->http://localhost:8100, timeout = 5000
+178353322 DEBUG [2019-09-12 23:08:06]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178353322 DEBUG [2019-09-12 23:08:06]  No free connections [{}->http://localhost:8100][null]
+178353322 DEBUG [2019-09-12 23:08:06]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178353322 DEBUG [2019-09-12 23:08:06]  Creating new connection [{}->http://localhost:8100]
+178353323 DEBUG [2019-09-12 23:08:06]  Connecting to localhost:8100
+178353323 DEBUG [2019-09-12 23:08:06]  CookieSpec selected: default
+178353323 DEBUG [2019-09-12 23:08:06]  Auth cache not set in the context
+178353323 DEBUG [2019-09-12 23:08:06]  Target auth state: UNCHALLENGED
+178353324 DEBUG [2019-09-12 23:08:06]  Proxy auth state: UNCHALLENGED
+178353324 DEBUG [2019-09-12 23:08:06]  Attempt 1 to execute request
+178353324 DEBUG [2019-09-12 23:08:06]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178353324 DEBUG [2019-09-12 23:08:06]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "Accept-Encoding: gzip[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "Content-Length: 0[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "Host: localhost:8100[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "Connection: Keep-Alive[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]   >> "[\r][\n]"
+178353324 DEBUG [2019-09-12 23:08:06]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178353324 DEBUG [2019-09-12 23:08:06]  >> DiscoveryIdentity-Name: DefaultClient
+178353324 DEBUG [2019-09-12 23:08:06]  >> DiscoveryIdentity-Version: 1.4
+178353324 DEBUG [2019-09-12 23:08:06]  >> DiscoveryIdentity-Id: 192.168.1.36
+178353324 DEBUG [2019-09-12 23:08:06]  >> Accept-Encoding: gzip
+178353324 DEBUG [2019-09-12 23:08:06]  >> Content-Length: 0
+178353324 DEBUG [2019-09-12 23:08:06]  >> Host: localhost:8100
+178353324 DEBUG [2019-09-12 23:08:06]  >> Connection: Keep-Alive
+178353324 DEBUG [2019-09-12 23:08:06]  >> User-Agent: Java-EurekaClient/v1.8.6
+178353326 DEBUG [2019-09-12 23:08:06]   << "HTTP/1.1 200 [\r][\n]"
+178353326 DEBUG [2019-09-12 23:08:06]   << "Content-Type: application/xml[\r][\n]"
+178353326 DEBUG [2019-09-12 23:08:06]   << "Content-Length: 0[\r][\n]"
+178353326 DEBUG [2019-09-12 23:08:06]   << "Date: Thu, 12 Sep 2019 15:08:06 GMT[\r][\n]"
+178353326 DEBUG [2019-09-12 23:08:06]   << "[\r][\n]"
+178353326 DEBUG [2019-09-12 23:08:06]  Receiving response: HTTP/1.1 200 
+178353326 DEBUG [2019-09-12 23:08:06]  << HTTP/1.1 200 
+178353326 DEBUG [2019-09-12 23:08:06]  << Content-Type: application/xml
+178353326 DEBUG [2019-09-12 23:08:06]  << Content-Length: 0
+178353326 DEBUG [2019-09-12 23:08:06]  << Date: Thu, 12 Sep 2019 15:08:06 GMT
+178353326 DEBUG [2019-09-12 23:08:06]  Connection can be kept alive indefinitely
+178353326 DEBUG [2019-09-12 23:08:06]  Released connection is reusable.
+178353326 DEBUG [2019-09-12 23:08:06]  Releasing connection [{}->http://localhost:8100][null]
+178353326 DEBUG [2019-09-12 23:08:06]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178353326 DEBUG [2019-09-12 23:08:06]  Notifying no-one, there are no waiting threads
+178354215 DEBUG [2019-09-12 23:08:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178354215 DEBUG [2019-09-12 23:08:07]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178354215 DEBUG [2019-09-12 23:08:07]  Getting free connection [{}->http://localhost:8100][null]
+178354215 DEBUG [2019-09-12 23:08:07]  Stale connection check
+178354217 DEBUG [2019-09-12 23:08:07]  CookieSpec selected: default
+178354217 DEBUG [2019-09-12 23:08:07]  Auth cache not set in the context
+178354217 DEBUG [2019-09-12 23:08:07]  Target auth state: UNCHALLENGED
+178354217 DEBUG [2019-09-12 23:08:07]  Proxy auth state: UNCHALLENGED
+178354217 DEBUG [2019-09-12 23:08:07]  Attempt 1 to execute request
+178354217 DEBUG [2019-09-12 23:08:07]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178354217 DEBUG [2019-09-12 23:08:07]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "Accept: application/json[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "Host: localhost:8100[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "Connection: Keep-Alive[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]   >> "[\r][\n]"
+178354217 DEBUG [2019-09-12 23:08:07]  >> GET /eureka/apps/delta HTTP/1.1
+178354217 DEBUG [2019-09-12 23:08:07]  >> Accept: application/json
+178354217 DEBUG [2019-09-12 23:08:07]  >> DiscoveryIdentity-Name: DefaultClient
+178354217 DEBUG [2019-09-12 23:08:07]  >> DiscoveryIdentity-Version: 1.4
+178354217 DEBUG [2019-09-12 23:08:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178354217 DEBUG [2019-09-12 23:08:07]  >> Accept-Encoding: gzip
+178354217 DEBUG [2019-09-12 23:08:07]  >> Host: localhost:8100
+178354217 DEBUG [2019-09-12 23:08:07]  >> Connection: Keep-Alive
+178354217 DEBUG [2019-09-12 23:08:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178354218 DEBUG [2019-09-12 23:08:07]   << "HTTP/1.1 200 [\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]   << "Content-Encoding: gzip[\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]   << "Content-Type: application/json[\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]   << "Content-Length: 87[\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]   << "Date: Thu, 12 Sep 2019 15:08:06 GMT[\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]   << "[\r][\n]"
+178354218 DEBUG [2019-09-12 23:08:07]  Receiving response: HTTP/1.1 200 
+178354218 DEBUG [2019-09-12 23:08:07]  << HTTP/1.1 200 
+178354219 DEBUG [2019-09-12 23:08:07]  << Content-Encoding: gzip
+178354219 DEBUG [2019-09-12 23:08:07]  << Content-Type: application/json
+178354219 DEBUG [2019-09-12 23:08:07]  << Content-Length: 87
+178354219 DEBUG [2019-09-12 23:08:07]  << Date: Thu, 12 Sep 2019 15:08:06 GMT
+178354219 DEBUG [2019-09-12 23:08:07]  Connection can be kept alive indefinitely
+178354219 DEBUG [2019-09-12 23:08:07]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r][0x8c][0x95]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0][0xe1][0x0]r2T[0x0][0x0][0x0]"
+178354219 DEBUG [2019-09-12 23:08:07]  Released connection is reusable.
+178354219 DEBUG [2019-09-12 23:08:07]  Releasing connection [{}->http://localhost:8100][null]
+178354219 DEBUG [2019-09-12 23:08:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178354219 DEBUG [2019-09-12 23:08:07]  Notifying no-one, there are no waiting threads
+178362079 DEBUG [2019-09-12 23:08:15]  Closing expired connections
+178364420 DEBUG [2019-09-12 23:08:18]  Closing expired connections
+178364515 DEBUG [2019-09-12 23:08:18]  Returning cached instance of singleton bean 'eurekaClient'
+178364515 DEBUG [2019-09-12 23:08:18]  Returning cached instance of singleton bean 'eurekaClient'
+178364515 DEBUG [2019-09-12 23:08:18]  Returning cached instance of singleton bean 'eurekaClient'
+178364515 DEBUG [2019-09-12 23:08:18]  Returning cached instance of singleton bean 'eurekaClient'
+178377519 DEBUG [2019-09-12 23:08:31]  Closing connections idle longer than 30000 SECONDS
+178377519 DEBUG [2019-09-12 23:08:31]  Closing connections idle longer than 30000 SECONDS
+178378406 DEBUG [2019-09-12 23:08:32]  Closing connections idle longer than -1 SECONDS
+178378406 DEBUG [2019-09-12 23:08:32]  Closing connections idle longer than 0 SECONDS
+178378406 DEBUG [2019-09-12 23:08:32]  Closing connection last used @ Thu Sep 12 23:08:07 CST 2019
+178378406 DEBUG [2019-09-12 23:08:32]  Deleting connection [{}->http://localhost:8100][null]
+178378407 DEBUG [2019-09-12 23:08:32]  Connection 0.0.0.0:63139<->127.0.0.1:8100 closed
+178383327 DEBUG [2019-09-12 23:08:36]  Get connection: {}->http://localhost:8100, timeout = 5000
+178383327 DEBUG [2019-09-12 23:08:36]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178383327 DEBUG [2019-09-12 23:08:36]  No free connections [{}->http://localhost:8100][null]
+178383327 DEBUG [2019-09-12 23:08:36]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178383327 DEBUG [2019-09-12 23:08:36]  Creating new connection [{}->http://localhost:8100]
+178383328 DEBUG [2019-09-12 23:08:36]  Connecting to localhost:8100
+178383329 DEBUG [2019-09-12 23:08:36]  CookieSpec selected: default
+178383330 DEBUG [2019-09-12 23:08:36]  Auth cache not set in the context
+178383330 DEBUG [2019-09-12 23:08:36]  Target auth state: UNCHALLENGED
+178383330 DEBUG [2019-09-12 23:08:36]  Proxy auth state: UNCHALLENGED
+178383330 DEBUG [2019-09-12 23:08:36]  Attempt 1 to execute request
+178383330 DEBUG [2019-09-12 23:08:36]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178383330 DEBUG [2019-09-12 23:08:36]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "Accept-Encoding: gzip[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "Content-Length: 0[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "Host: localhost:8100[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "Connection: Keep-Alive[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]   >> "[\r][\n]"
+178383330 DEBUG [2019-09-12 23:08:36]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178383330 DEBUG [2019-09-12 23:08:36]  >> DiscoveryIdentity-Name: DefaultClient
+178383330 DEBUG [2019-09-12 23:08:36]  >> DiscoveryIdentity-Version: 1.4
+178383330 DEBUG [2019-09-12 23:08:36]  >> DiscoveryIdentity-Id: 192.168.1.36
+178383330 DEBUG [2019-09-12 23:08:36]  >> Accept-Encoding: gzip
+178383330 DEBUG [2019-09-12 23:08:36]  >> Content-Length: 0
+178383330 DEBUG [2019-09-12 23:08:36]  >> Host: localhost:8100
+178383330 DEBUG [2019-09-12 23:08:36]  >> Connection: Keep-Alive
+178383330 DEBUG [2019-09-12 23:08:36]  >> User-Agent: Java-EurekaClient/v1.8.6
+178383332 DEBUG [2019-09-12 23:08:36]   << "HTTP/1.1 200 [\r][\n]"
+178383332 DEBUG [2019-09-12 23:08:36]   << "Content-Type: application/xml[\r][\n]"
+178383332 DEBUG [2019-09-12 23:08:36]   << "Content-Length: 0[\r][\n]"
+178383332 DEBUG [2019-09-12 23:08:36]   << "Date: Thu, 12 Sep 2019 15:08:36 GMT[\r][\n]"
+178383332 DEBUG [2019-09-12 23:08:36]   << "[\r][\n]"
+178383332 DEBUG [2019-09-12 23:08:36]  Receiving response: HTTP/1.1 200 
+178383332 DEBUG [2019-09-12 23:08:36]  << HTTP/1.1 200 
+178383332 DEBUG [2019-09-12 23:08:36]  << Content-Type: application/xml
+178383332 DEBUG [2019-09-12 23:08:36]  << Content-Length: 0
+178383333 DEBUG [2019-09-12 23:08:36]  << Date: Thu, 12 Sep 2019 15:08:36 GMT
+178383333 DEBUG [2019-09-12 23:08:36]  Connection can be kept alive indefinitely
+178383333 DEBUG [2019-09-12 23:08:36]  Released connection is reusable.
+178383333 DEBUG [2019-09-12 23:08:36]  Releasing connection [{}->http://localhost:8100][null]
+178383333 DEBUG [2019-09-12 23:08:36]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178383333 DEBUG [2019-09-12 23:08:36]  Notifying no-one, there are no waiting threads
+178384221 DEBUG [2019-09-12 23:08:37]  Get connection: {}->http://localhost:8100, timeout = 5000
+178384221 DEBUG [2019-09-12 23:08:37]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178384221 DEBUG [2019-09-12 23:08:37]  Getting free connection [{}->http://localhost:8100][null]
+178384221 DEBUG [2019-09-12 23:08:37]  Stale connection check
+178384223 DEBUG [2019-09-12 23:08:37]  CookieSpec selected: default
+178384223 DEBUG [2019-09-12 23:08:37]  Auth cache not set in the context
+178384223 DEBUG [2019-09-12 23:08:37]  Target auth state: UNCHALLENGED
+178384223 DEBUG [2019-09-12 23:08:37]  Proxy auth state: UNCHALLENGED
+178384223 DEBUG [2019-09-12 23:08:37]  Attempt 1 to execute request
+178384223 DEBUG [2019-09-12 23:08:37]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178384223 DEBUG [2019-09-12 23:08:37]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "Accept: application/json[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "Accept-Encoding: gzip[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "Host: localhost:8100[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "Connection: Keep-Alive[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]   >> "[\r][\n]"
+178384223 DEBUG [2019-09-12 23:08:37]  >> GET /eureka/apps/delta HTTP/1.1
+178384223 DEBUG [2019-09-12 23:08:37]  >> Accept: application/json
+178384223 DEBUG [2019-09-12 23:08:37]  >> DiscoveryIdentity-Name: DefaultClient
+178384223 DEBUG [2019-09-12 23:08:37]  >> DiscoveryIdentity-Version: 1.4
+178384223 DEBUG [2019-09-12 23:08:37]  >> DiscoveryIdentity-Id: 192.168.1.36
+178384223 DEBUG [2019-09-12 23:08:37]  >> Accept-Encoding: gzip
+178384223 DEBUG [2019-09-12 23:08:37]  >> Host: localhost:8100
+178384223 DEBUG [2019-09-12 23:08:37]  >> Connection: Keep-Alive
+178384223 DEBUG [2019-09-12 23:08:37]  >> User-Agent: Java-EurekaClient/v1.8.6
+178384224 DEBUG [2019-09-12 23:08:37]   << "HTTP/1.1 200 [\r][\n]"
+178384224 DEBUG [2019-09-12 23:08:37]   << "Content-Encoding: gzip[\r][\n]"
+178384224 DEBUG [2019-09-12 23:08:37]   << "Content-Type: application/json[\r][\n]"
+178384224 DEBUG [2019-09-12 23:08:37]   << "Content-Length: 87[\r][\n]"
+178384224 DEBUG [2019-09-12 23:08:37]   << "Date: Thu, 12 Sep 2019 15:08:36 GMT[\r][\n]"
+178384224 DEBUG [2019-09-12 23:08:37]   << "[\r][\n]"
+178384225 DEBUG [2019-09-12 23:08:37]  Receiving response: HTTP/1.1 200 
+178384225 DEBUG [2019-09-12 23:08:37]  << HTTP/1.1 200 
+178384225 DEBUG [2019-09-12 23:08:37]  << Content-Encoding: gzip
+178384225 DEBUG [2019-09-12 23:08:37]  << Content-Type: application/json
+178384225 DEBUG [2019-09-12 23:08:37]  << Content-Length: 87
+178384225 DEBUG [2019-09-12 23:08:37]  << Date: Thu, 12 Sep 2019 15:08:36 GMT
+178384225 DEBUG [2019-09-12 23:08:37]  Connection can be kept alive indefinitely
+178384225 DEBUG [2019-09-12 23:08:37]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r][0x8c][0x95]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0][0xe1][0x0]r2T[0x0][0x0][0x0]"
+178384225 DEBUG [2019-09-12 23:08:37]  Released connection is reusable.
+178384225 DEBUG [2019-09-12 23:08:37]  Releasing connection [{}->http://localhost:8100][null]
+178384225 DEBUG [2019-09-12 23:08:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178384225 DEBUG [2019-09-12 23:08:37]  Notifying no-one, there are no waiting threads
+178392099 DEBUG [2019-09-12 23:08:45]  Closing expired connections
+178394420 DEBUG [2019-09-12 23:08:48]  Closing expired connections
+178394516 DEBUG [2019-09-12 23:08:48]  Returning cached instance of singleton bean 'eurekaClient'
+178394516 DEBUG [2019-09-12 23:08:48]  Returning cached instance of singleton bean 'eurekaClient'
+178394516 DEBUG [2019-09-12 23:08:48]  Returning cached instance of singleton bean 'eurekaClient'
+178394516 DEBUG [2019-09-12 23:08:48]  Returning cached instance of singleton bean 'eurekaClient'
+178407541 DEBUG [2019-09-12 23:09:01]  Closing connections idle longer than 30000 SECONDS
+178407541 DEBUG [2019-09-12 23:09:01]  Closing connections idle longer than 30000 SECONDS
+178408425 DEBUG [2019-09-12 23:09:02]  Closing connections idle longer than -1 SECONDS
+178408425 DEBUG [2019-09-12 23:09:02]  Closing connections idle longer than 0 SECONDS
+178408425 DEBUG [2019-09-12 23:09:02]  Closing connection last used @ Thu Sep 12 23:08:37 CST 2019
+178408425 DEBUG [2019-09-12 23:09:02]  Deleting connection [{}->http://localhost:8100][null]
+178408425 DEBUG [2019-09-12 23:09:02]  Connection 0.0.0.0:63159<->127.0.0.1:8100 closed
+178413334 DEBUG [2019-09-12 23:09:06]  Get connection: {}->http://localhost:8100, timeout = 5000
+178413334 DEBUG [2019-09-12 23:09:06]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178413334 DEBUG [2019-09-12 23:09:06]  No free connections [{}->http://localhost:8100][null]
+178413334 DEBUG [2019-09-12 23:09:06]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178413334 DEBUG [2019-09-12 23:09:06]  Creating new connection [{}->http://localhost:8100]
+178413335 DEBUG [2019-09-12 23:09:06]  Connecting to localhost:8100
+178413336 DEBUG [2019-09-12 23:09:06]  CookieSpec selected: default
+178413336 DEBUG [2019-09-12 23:09:06]  Auth cache not set in the context
+178413336 DEBUG [2019-09-12 23:09:06]  Target auth state: UNCHALLENGED
+178413336 DEBUG [2019-09-12 23:09:06]  Proxy auth state: UNCHALLENGED
+178413336 DEBUG [2019-09-12 23:09:06]  Attempt 1 to execute request
+178413336 DEBUG [2019-09-12 23:09:06]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178413336 DEBUG [2019-09-12 23:09:06]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "Accept-Encoding: gzip[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "Content-Length: 0[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "Host: localhost:8100[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "Connection: Keep-Alive[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]   >> "[\r][\n]"
+178413336 DEBUG [2019-09-12 23:09:06]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178413336 DEBUG [2019-09-12 23:09:06]  >> DiscoveryIdentity-Name: DefaultClient
+178413336 DEBUG [2019-09-12 23:09:06]  >> DiscoveryIdentity-Version: 1.4
+178413336 DEBUG [2019-09-12 23:09:06]  >> DiscoveryIdentity-Id: 192.168.1.36
+178413336 DEBUG [2019-09-12 23:09:06]  >> Accept-Encoding: gzip
+178413336 DEBUG [2019-09-12 23:09:06]  >> Content-Length: 0
+178413336 DEBUG [2019-09-12 23:09:06]  >> Host: localhost:8100
+178413336 DEBUG [2019-09-12 23:09:06]  >> Connection: Keep-Alive
+178413336 DEBUG [2019-09-12 23:09:06]  >> User-Agent: Java-EurekaClient/v1.8.6
+178413338 DEBUG [2019-09-12 23:09:06]   << "HTTP/1.1 200 [\r][\n]"
+178413338 DEBUG [2019-09-12 23:09:06]   << "Content-Type: application/xml[\r][\n]"
+178413338 DEBUG [2019-09-12 23:09:06]   << "Content-Length: 0[\r][\n]"
+178413338 DEBUG [2019-09-12 23:09:06]   << "Date: Thu, 12 Sep 2019 15:09:06 GMT[\r][\n]"
+178413338 DEBUG [2019-09-12 23:09:06]   << "[\r][\n]"
+178413339 DEBUG [2019-09-12 23:09:06]  Receiving response: HTTP/1.1 200 
+178413339 DEBUG [2019-09-12 23:09:06]  << HTTP/1.1 200 
+178413339 DEBUG [2019-09-12 23:09:06]  << Content-Type: application/xml
+178413339 DEBUG [2019-09-12 23:09:06]  << Content-Length: 0
+178413339 DEBUG [2019-09-12 23:09:06]  << Date: Thu, 12 Sep 2019 15:09:06 GMT
+178413339 DEBUG [2019-09-12 23:09:06]  Connection can be kept alive indefinitely
+178413339 DEBUG [2019-09-12 23:09:06]  Released connection is reusable.
+178413339 DEBUG [2019-09-12 23:09:06]  Releasing connection [{}->http://localhost:8100][null]
+178413339 DEBUG [2019-09-12 23:09:06]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178413339 DEBUG [2019-09-12 23:09:06]  Notifying no-one, there are no waiting threads
+178414252 DEBUG [2019-09-12 23:09:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178414252 DEBUG [2019-09-12 23:09:07]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178414252 DEBUG [2019-09-12 23:09:07]  Getting free connection [{}->http://localhost:8100][null]
+178414252 DEBUG [2019-09-12 23:09:07]  Stale connection check
+178414254 DEBUG [2019-09-12 23:09:07]  CookieSpec selected: default
+178414254 DEBUG [2019-09-12 23:09:07]  Auth cache not set in the context
+178414254 DEBUG [2019-09-12 23:09:07]  Target auth state: UNCHALLENGED
+178414254 DEBUG [2019-09-12 23:09:07]  Proxy auth state: UNCHALLENGED
+178414254 DEBUG [2019-09-12 23:09:07]  Attempt 1 to execute request
+178414254 DEBUG [2019-09-12 23:09:07]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178414254 DEBUG [2019-09-12 23:09:07]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "Accept: application/json[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "Host: localhost:8100[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "Connection: Keep-Alive[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]   >> "[\r][\n]"
+178414254 DEBUG [2019-09-12 23:09:07]  >> GET /eureka/apps/delta HTTP/1.1
+178414254 DEBUG [2019-09-12 23:09:07]  >> Accept: application/json
+178414254 DEBUG [2019-09-12 23:09:07]  >> DiscoveryIdentity-Name: DefaultClient
+178414254 DEBUG [2019-09-12 23:09:07]  >> DiscoveryIdentity-Version: 1.4
+178414254 DEBUG [2019-09-12 23:09:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178414254 DEBUG [2019-09-12 23:09:07]  >> Accept-Encoding: gzip
+178414254 DEBUG [2019-09-12 23:09:07]  >> Host: localhost:8100
+178414254 DEBUG [2019-09-12 23:09:07]  >> Connection: Keep-Alive
+178414254 DEBUG [2019-09-12 23:09:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178414256 DEBUG [2019-09-12 23:09:07]   << "HTTP/1.1 200 [\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]   << "Content-Encoding: gzip[\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]   << "Content-Type: application/json[\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]   << "Content-Length: 87[\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]   << "Date: Thu, 12 Sep 2019 15:09:06 GMT[\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]   << "[\r][\n]"
+178414256 DEBUG [2019-09-12 23:09:07]  Receiving response: HTTP/1.1 200 
+178414256 DEBUG [2019-09-12 23:09:07]  << HTTP/1.1 200 
+178414256 DEBUG [2019-09-12 23:09:07]  << Content-Encoding: gzip
+178414256 DEBUG [2019-09-12 23:09:07]  << Content-Type: application/json
+178414256 DEBUG [2019-09-12 23:09:07]  << Content-Length: 87
+178414256 DEBUG [2019-09-12 23:09:07]  << Date: Thu, 12 Sep 2019 15:09:06 GMT
+178414256 DEBUG [2019-09-12 23:09:07]  Connection can be kept alive indefinitely
+178414256 DEBUG [2019-09-12 23:09:07]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r]L[0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0]Y[0xc4][0x96]T[0x0][0x0][0x0]"
+178414257 DEBUG [2019-09-12 23:09:07]  Released connection is reusable.
+178414257 DEBUG [2019-09-12 23:09:07]  Releasing connection [{}->http://localhost:8100][null]
+178414257 DEBUG [2019-09-12 23:09:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178414257 DEBUG [2019-09-12 23:09:07]  Notifying no-one, there are no waiting threads
+178422103 DEBUG [2019-09-12 23:09:15]  Closing expired connections
+178424433 DEBUG [2019-09-12 23:09:18]  Closing expired connections
+178424517 DEBUG [2019-09-12 23:09:18]  Returning cached instance of singleton bean 'eurekaClient'
+178424517 DEBUG [2019-09-12 23:09:18]  Returning cached instance of singleton bean 'eurekaClient'
+178424517 DEBUG [2019-09-12 23:09:18]  Returning cached instance of singleton bean 'eurekaClient'
+178424517 DEBUG [2019-09-12 23:09:18]  Returning cached instance of singleton bean 'eurekaClient'
+178437542 DEBUG [2019-09-12 23:09:31]  Closing connections idle longer than 30000 SECONDS
+178437542 DEBUG [2019-09-12 23:09:31]  Closing connections idle longer than 30000 SECONDS
+178438429 DEBUG [2019-09-12 23:09:32]  Closing connections idle longer than -1 SECONDS
+178438429 DEBUG [2019-09-12 23:09:32]  Closing connections idle longer than 0 SECONDS
+178438429 DEBUG [2019-09-12 23:09:32]  Closing connection last used @ Thu Sep 12 23:09:07 CST 2019
+178438429 DEBUG [2019-09-12 23:09:32]  Deleting connection [{}->http://localhost:8100][null]
+178438429 DEBUG [2019-09-12 23:09:32]  Connection 0.0.0.0:63170<->127.0.0.1:8100 closed
+178443339 DEBUG [2019-09-12 23:09:36]  Get connection: {}->http://localhost:8100, timeout = 5000
+178443339 DEBUG [2019-09-12 23:09:36]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178443339 DEBUG [2019-09-12 23:09:36]  No free connections [{}->http://localhost:8100][null]
+178443339 DEBUG [2019-09-12 23:09:36]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178443339 DEBUG [2019-09-12 23:09:36]  Creating new connection [{}->http://localhost:8100]
+178443340 DEBUG [2019-09-12 23:09:36]  Connecting to localhost:8100
+178443341 DEBUG [2019-09-12 23:09:36]  CookieSpec selected: default
+178443341 DEBUG [2019-09-12 23:09:36]  Auth cache not set in the context
+178443341 DEBUG [2019-09-12 23:09:36]  Target auth state: UNCHALLENGED
+178443341 DEBUG [2019-09-12 23:09:36]  Proxy auth state: UNCHALLENGED
+178443341 DEBUG [2019-09-12 23:09:36]  Attempt 1 to execute request
+178443341 DEBUG [2019-09-12 23:09:36]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178443341 DEBUG [2019-09-12 23:09:36]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "Accept-Encoding: gzip[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "Content-Length: 0[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "Host: localhost:8100[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "Connection: Keep-Alive[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]   >> "[\r][\n]"
+178443341 DEBUG [2019-09-12 23:09:36]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178443341 DEBUG [2019-09-12 23:09:36]  >> DiscoveryIdentity-Name: DefaultClient
+178443341 DEBUG [2019-09-12 23:09:36]  >> DiscoveryIdentity-Version: 1.4
+178443341 DEBUG [2019-09-12 23:09:36]  >> DiscoveryIdentity-Id: 192.168.1.36
+178443341 DEBUG [2019-09-12 23:09:36]  >> Accept-Encoding: gzip
+178443341 DEBUG [2019-09-12 23:09:36]  >> Content-Length: 0
+178443341 DEBUG [2019-09-12 23:09:36]  >> Host: localhost:8100
+178443341 DEBUG [2019-09-12 23:09:36]  >> Connection: Keep-Alive
+178443341 DEBUG [2019-09-12 23:09:36]  >> User-Agent: Java-EurekaClient/v1.8.6
+178443343 DEBUG [2019-09-12 23:09:37]   << "HTTP/1.1 200 [\r][\n]"
+178443343 DEBUG [2019-09-12 23:09:37]   << "Content-Type: application/xml[\r][\n]"
+178443343 DEBUG [2019-09-12 23:09:37]   << "Content-Length: 0[\r][\n]"
+178443343 DEBUG [2019-09-12 23:09:37]   << "Date: Thu, 12 Sep 2019 15:09:37 GMT[\r][\n]"
+178443343 DEBUG [2019-09-12 23:09:37]   << "[\r][\n]"
+178443343 DEBUG [2019-09-12 23:09:37]  Receiving response: HTTP/1.1 200 
+178443343 DEBUG [2019-09-12 23:09:37]  << HTTP/1.1 200 
+178443343 DEBUG [2019-09-12 23:09:37]  << Content-Type: application/xml
+178443343 DEBUG [2019-09-12 23:09:37]  << Content-Length: 0
+178443343 DEBUG [2019-09-12 23:09:37]  << Date: Thu, 12 Sep 2019 15:09:37 GMT
+178443343 DEBUG [2019-09-12 23:09:37]  Connection can be kept alive indefinitely
+178443343 DEBUG [2019-09-12 23:09:37]  Released connection is reusable.
+178443343 DEBUG [2019-09-12 23:09:37]  Releasing connection [{}->http://localhost:8100][null]
+178443343 DEBUG [2019-09-12 23:09:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178443343 DEBUG [2019-09-12 23:09:37]  Notifying no-one, there are no waiting threads
+178444261 DEBUG [2019-09-12 23:09:37]  Get connection: {}->http://localhost:8100, timeout = 5000
+178444261 DEBUG [2019-09-12 23:09:37]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178444261 DEBUG [2019-09-12 23:09:37]  Getting free connection [{}->http://localhost:8100][null]
+178444261 DEBUG [2019-09-12 23:09:37]  Stale connection check
+178444263 DEBUG [2019-09-12 23:09:37]  CookieSpec selected: default
+178444263 DEBUG [2019-09-12 23:09:37]  Auth cache not set in the context
+178444263 DEBUG [2019-09-12 23:09:37]  Target auth state: UNCHALLENGED
+178444263 DEBUG [2019-09-12 23:09:37]  Proxy auth state: UNCHALLENGED
+178444263 DEBUG [2019-09-12 23:09:37]  Attempt 1 to execute request
+178444263 DEBUG [2019-09-12 23:09:37]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178444263 DEBUG [2019-09-12 23:09:37]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "Accept: application/json[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "Accept-Encoding: gzip[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "Host: localhost:8100[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "Connection: Keep-Alive[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]   >> "[\r][\n]"
+178444263 DEBUG [2019-09-12 23:09:37]  >> GET /eureka/apps/delta HTTP/1.1
+178444263 DEBUG [2019-09-12 23:09:37]  >> Accept: application/json
+178444263 DEBUG [2019-09-12 23:09:37]  >> DiscoveryIdentity-Name: DefaultClient
+178444263 DEBUG [2019-09-12 23:09:37]  >> DiscoveryIdentity-Version: 1.4
+178444263 DEBUG [2019-09-12 23:09:37]  >> DiscoveryIdentity-Id: 192.168.1.36
+178444263 DEBUG [2019-09-12 23:09:37]  >> Accept-Encoding: gzip
+178444263 DEBUG [2019-09-12 23:09:37]  >> Host: localhost:8100
+178444263 DEBUG [2019-09-12 23:09:37]  >> Connection: Keep-Alive
+178444263 DEBUG [2019-09-12 23:09:37]  >> User-Agent: Java-EurekaClient/v1.8.6
+178444265 DEBUG [2019-09-12 23:09:37]   << "HTTP/1.1 200 [\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]   << "Content-Encoding: gzip[\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]   << "Content-Type: application/json[\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]   << "Content-Length: 87[\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]   << "Date: Thu, 12 Sep 2019 15:09:37 GMT[\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]   << "[\r][\n]"
+178444265 DEBUG [2019-09-12 23:09:37]  Receiving response: HTTP/1.1 200 
+178444265 DEBUG [2019-09-12 23:09:37]  << HTTP/1.1 200 
+178444265 DEBUG [2019-09-12 23:09:37]  << Content-Encoding: gzip
+178444265 DEBUG [2019-09-12 23:09:37]  << Content-Type: application/json
+178444265 DEBUG [2019-09-12 23:09:37]  << Content-Length: 87
+178444265 DEBUG [2019-09-12 23:09:37]  << Date: Thu, 12 Sep 2019 15:09:37 GMT
+178444265 DEBUG [2019-09-12 23:09:37]  Connection can be kept alive indefinitely
+178444266 DEBUG [2019-09-12 23:09:37]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r]L[0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0]Y[0xc4][0x96]T[0x0][0x0][0x0]"
+178444266 DEBUG [2019-09-12 23:09:37]  Released connection is reusable.
+178444266 DEBUG [2019-09-12 23:09:37]  Releasing connection [{}->http://localhost:8100][null]
+178444266 DEBUG [2019-09-12 23:09:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178444266 DEBUG [2019-09-12 23:09:37]  Notifying no-one, there are no waiting threads
+178452104 DEBUG [2019-09-12 23:09:45]  Closing expired connections
+178454434 DEBUG [2019-09-12 23:09:48]  Closing expired connections
+178454519 DEBUG [2019-09-12 23:09:48]  Returning cached instance of singleton bean 'eurekaClient'
+178454519 DEBUG [2019-09-12 23:09:48]  Returning cached instance of singleton bean 'eurekaClient'
+178454519 DEBUG [2019-09-12 23:09:48]  Returning cached instance of singleton bean 'eurekaClient'
+178454519 DEBUG [2019-09-12 23:09:48]  Returning cached instance of singleton bean 'eurekaClient'
+178467543 DEBUG [2019-09-12 23:10:01]  Closing connections idle longer than 30000 SECONDS
+178467543 DEBUG [2019-09-12 23:10:01]  Closing connections idle longer than 30000 SECONDS
+178468432 DEBUG [2019-09-12 23:10:02]  Closing connections idle longer than -1 SECONDS
+178468433 DEBUG [2019-09-12 23:10:02]  Closing connections idle longer than 0 SECONDS
+178468433 DEBUG [2019-09-12 23:10:02]  Closing connection last used @ Thu Sep 12 23:09:37 CST 2019
+178468433 DEBUG [2019-09-12 23:10:02]  Deleting connection [{}->http://localhost:8100][null]
+178468433 DEBUG [2019-09-12 23:10:02]  Connection 0.0.0.0:63175<->127.0.0.1:8100 closed
+178473346 DEBUG [2019-09-12 23:10:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178473346 DEBUG [2019-09-12 23:10:07]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178473346 DEBUG [2019-09-12 23:10:07]  No free connections [{}->http://localhost:8100][null]
+178473346 DEBUG [2019-09-12 23:10:07]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178473346 DEBUG [2019-09-12 23:10:07]  Creating new connection [{}->http://localhost:8100]
+178473347 DEBUG [2019-09-12 23:10:07]  Connecting to localhost:8100
+178473347 DEBUG [2019-09-12 23:10:07]  CookieSpec selected: default
+178473347 DEBUG [2019-09-12 23:10:07]  Auth cache not set in the context
+178473347 DEBUG [2019-09-12 23:10:07]  Target auth state: UNCHALLENGED
+178473347 DEBUG [2019-09-12 23:10:07]  Proxy auth state: UNCHALLENGED
+178473347 DEBUG [2019-09-12 23:10:07]  Attempt 1 to execute request
+178473347 DEBUG [2019-09-12 23:10:07]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178473347 DEBUG [2019-09-12 23:10:07]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178473347 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178473347 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178473347 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "Content-Length: 0[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "Host: localhost:8100[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "Connection: Keep-Alive[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]   >> "[\r][\n]"
+178473348 DEBUG [2019-09-12 23:10:07]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178473348 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Name: DefaultClient
+178473348 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Version: 1.4
+178473348 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178473348 DEBUG [2019-09-12 23:10:07]  >> Accept-Encoding: gzip
+178473348 DEBUG [2019-09-12 23:10:07]  >> Content-Length: 0
+178473348 DEBUG [2019-09-12 23:10:07]  >> Host: localhost:8100
+178473348 DEBUG [2019-09-12 23:10:07]  >> Connection: Keep-Alive
+178473348 DEBUG [2019-09-12 23:10:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178473349 DEBUG [2019-09-12 23:10:07]   << "HTTP/1.1 200 [\r][\n]"
+178473349 DEBUG [2019-09-12 23:10:07]   << "Content-Type: application/xml[\r][\n]"
+178473349 DEBUG [2019-09-12 23:10:07]   << "Content-Length: 0[\r][\n]"
+178473349 DEBUG [2019-09-12 23:10:07]   << "Date: Thu, 12 Sep 2019 15:10:07 GMT[\r][\n]"
+178473350 DEBUG [2019-09-12 23:10:07]   << "[\r][\n]"
+178473350 DEBUG [2019-09-12 23:10:07]  Receiving response: HTTP/1.1 200 
+178473350 DEBUG [2019-09-12 23:10:07]  << HTTP/1.1 200 
+178473350 DEBUG [2019-09-12 23:10:07]  << Content-Type: application/xml
+178473350 DEBUG [2019-09-12 23:10:07]  << Content-Length: 0
+178473350 DEBUG [2019-09-12 23:10:07]  << Date: Thu, 12 Sep 2019 15:10:07 GMT
+178473350 DEBUG [2019-09-12 23:10:07]  Connection can be kept alive indefinitely
+178473350 DEBUG [2019-09-12 23:10:07]  Released connection is reusable.
+178473350 DEBUG [2019-09-12 23:10:07]  Releasing connection [{}->http://localhost:8100][null]
+178473350 DEBUG [2019-09-12 23:10:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178473350 DEBUG [2019-09-12 23:10:07]  Notifying no-one, there are no waiting threads
+178474266 DEBUG [2019-09-12 23:10:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178474266 DEBUG [2019-09-12 23:10:07]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178474266 DEBUG [2019-09-12 23:10:07]  Getting free connection [{}->http://localhost:8100][null]
+178474266 DEBUG [2019-09-12 23:10:07]  Stale connection check
+178474268 DEBUG [2019-09-12 23:10:07]  CookieSpec selected: default
+178474268 DEBUG [2019-09-12 23:10:07]  Auth cache not set in the context
+178474268 DEBUG [2019-09-12 23:10:07]  Target auth state: UNCHALLENGED
+178474268 DEBUG [2019-09-12 23:10:07]  Proxy auth state: UNCHALLENGED
+178474268 DEBUG [2019-09-12 23:10:07]  Attempt 1 to execute request
+178474268 DEBUG [2019-09-12 23:10:07]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178474268 DEBUG [2019-09-12 23:10:07]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "Accept: application/json[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "Host: localhost:8100[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "Connection: Keep-Alive[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]   >> "[\r][\n]"
+178474268 DEBUG [2019-09-12 23:10:07]  >> GET /eureka/apps/delta HTTP/1.1
+178474268 DEBUG [2019-09-12 23:10:07]  >> Accept: application/json
+178474268 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Name: DefaultClient
+178474268 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Version: 1.4
+178474268 DEBUG [2019-09-12 23:10:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178474268 DEBUG [2019-09-12 23:10:07]  >> Accept-Encoding: gzip
+178474268 DEBUG [2019-09-12 23:10:07]  >> Host: localhost:8100
+178474268 DEBUG [2019-09-12 23:10:07]  >> Connection: Keep-Alive
+178474268 DEBUG [2019-09-12 23:10:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178474271 DEBUG [2019-09-12 23:10:07]   << "HTTP/1.1 200 [\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]   << "Content-Encoding: gzip[\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]   << "Content-Type: application/json[\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]   << "Content-Length: 87[\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]   << "Date: Thu, 12 Sep 2019 15:10:07 GMT[\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]   << "[\r][\n]"
+178474271 DEBUG [2019-09-12 23:10:07]  Receiving response: HTTP/1.1 200 
+178474271 DEBUG [2019-09-12 23:10:07]  << HTTP/1.1 200 
+178474271 DEBUG [2019-09-12 23:10:07]  << Content-Encoding: gzip
+178474271 DEBUG [2019-09-12 23:10:07]  << Content-Type: application/json
+178474271 DEBUG [2019-09-12 23:10:07]  << Content-Length: 87
+178474271 DEBUG [2019-09-12 23:10:07]  << Date: Thu, 12 Sep 2019 15:10:07 GMT
+178474271 DEBUG [2019-09-12 23:10:07]  Connection can be kept alive indefinitely
+178474271 DEBUG [2019-09-12 23:10:07]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r]L[0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0]Y[0xc4][0x96]T[0x0][0x0][0x0]"
+178474271 DEBUG [2019-09-12 23:10:07]  Released connection is reusable.
+178474272 DEBUG [2019-09-12 23:10:07]  Releasing connection [{}->http://localhost:8100][null]
+178474272 DEBUG [2019-09-12 23:10:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178474272 DEBUG [2019-09-12 23:10:07]  Notifying no-one, there are no waiting threads
+178482105 DEBUG [2019-09-12 23:10:15]  Closing expired connections
+178484440 DEBUG [2019-09-12 23:10:18]  Closing expired connections
+178484524 DEBUG [2019-09-12 23:10:18]  Returning cached instance of singleton bean 'eurekaClient'
+178484524 DEBUG [2019-09-12 23:10:18]  Returning cached instance of singleton bean 'eurekaClient'
+178484525 DEBUG [2019-09-12 23:10:18]  Returning cached instance of singleton bean 'eurekaClient'
+178484525 DEBUG [2019-09-12 23:10:18]  Returning cached instance of singleton bean 'eurekaClient'
+178497544 DEBUG [2019-09-12 23:10:31]  Closing connections idle longer than 30000 SECONDS
+178497544 DEBUG [2019-09-12 23:10:31]  Closing connections idle longer than 30000 SECONDS
+178498435 DEBUG [2019-09-12 23:10:32]  Closing connections idle longer than -1 SECONDS
+178498435 DEBUG [2019-09-12 23:10:32]  Closing connections idle longer than 0 SECONDS
+178498435 DEBUG [2019-09-12 23:10:32]  Closing connection last used @ Thu Sep 12 23:10:07 CST 2019
+178498435 DEBUG [2019-09-12 23:10:32]  Deleting connection [{}->http://localhost:8100][null]
+178498435 DEBUG [2019-09-12 23:10:32]  Connection 0.0.0.0:63180<->127.0.0.1:8100 closed
+178503350 DEBUG [2019-09-12 23:10:37]  Get connection: {}->http://localhost:8100, timeout = 5000
+178503350 DEBUG [2019-09-12 23:10:37]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178503350 DEBUG [2019-09-12 23:10:37]  No free connections [{}->http://localhost:8100][null]
+178503350 DEBUG [2019-09-12 23:10:37]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178503350 DEBUG [2019-09-12 23:10:37]  Creating new connection [{}->http://localhost:8100]
+178503351 DEBUG [2019-09-12 23:10:37]  Connecting to localhost:8100
+178503352 DEBUG [2019-09-12 23:10:37]  CookieSpec selected: default
+178503352 DEBUG [2019-09-12 23:10:37]  Auth cache not set in the context
+178503352 DEBUG [2019-09-12 23:10:37]  Target auth state: UNCHALLENGED
+178503352 DEBUG [2019-09-12 23:10:37]  Proxy auth state: UNCHALLENGED
+178503352 DEBUG [2019-09-12 23:10:37]  Attempt 1 to execute request
+178503352 DEBUG [2019-09-12 23:10:37]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178503352 DEBUG [2019-09-12 23:10:37]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "Accept-Encoding: gzip[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "Content-Length: 0[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "Host: localhost:8100[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "Connection: Keep-Alive[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]   >> "[\r][\n]"
+178503352 DEBUG [2019-09-12 23:10:37]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178503352 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Name: DefaultClient
+178503352 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Version: 1.4
+178503352 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Id: 192.168.1.36
+178503352 DEBUG [2019-09-12 23:10:37]  >> Accept-Encoding: gzip
+178503352 DEBUG [2019-09-12 23:10:37]  >> Content-Length: 0
+178503352 DEBUG [2019-09-12 23:10:37]  >> Host: localhost:8100
+178503352 DEBUG [2019-09-12 23:10:37]  >> Connection: Keep-Alive
+178503352 DEBUG [2019-09-12 23:10:37]  >> User-Agent: Java-EurekaClient/v1.8.6
+178503354 DEBUG [2019-09-12 23:10:37]   << "HTTP/1.1 200 [\r][\n]"
+178503354 DEBUG [2019-09-12 23:10:37]   << "Content-Type: application/xml[\r][\n]"
+178503354 DEBUG [2019-09-12 23:10:37]   << "Content-Length: 0[\r][\n]"
+178503354 DEBUG [2019-09-12 23:10:37]   << "Date: Thu, 12 Sep 2019 15:10:37 GMT[\r][\n]"
+178503354 DEBUG [2019-09-12 23:10:37]   << "[\r][\n]"
+178503354 DEBUG [2019-09-12 23:10:37]  Receiving response: HTTP/1.1 200 
+178503354 DEBUG [2019-09-12 23:10:37]  << HTTP/1.1 200 
+178503354 DEBUG [2019-09-12 23:10:37]  << Content-Type: application/xml
+178503354 DEBUG [2019-09-12 23:10:37]  << Content-Length: 0
+178503354 DEBUG [2019-09-12 23:10:37]  << Date: Thu, 12 Sep 2019 15:10:37 GMT
+178503354 DEBUG [2019-09-12 23:10:37]  Connection can be kept alive indefinitely
+178503354 DEBUG [2019-09-12 23:10:37]  Released connection is reusable.
+178503354 DEBUG [2019-09-12 23:10:37]  Releasing connection [{}->http://localhost:8100][null]
+178503354 DEBUG [2019-09-12 23:10:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178503354 DEBUG [2019-09-12 23:10:37]  Notifying no-one, there are no waiting threads
+178504273 DEBUG [2019-09-12 23:10:37]  Get connection: {}->http://localhost:8100, timeout = 5000
+178504273 DEBUG [2019-09-12 23:10:37]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178504273 DEBUG [2019-09-12 23:10:37]  Getting free connection [{}->http://localhost:8100][null]
+178504273 DEBUG [2019-09-12 23:10:37]  Stale connection check
+178504274 DEBUG [2019-09-12 23:10:37]  CookieSpec selected: default
+178504274 DEBUG [2019-09-12 23:10:37]  Auth cache not set in the context
+178504274 DEBUG [2019-09-12 23:10:37]  Target auth state: UNCHALLENGED
+178504274 DEBUG [2019-09-12 23:10:37]  Proxy auth state: UNCHALLENGED
+178504274 DEBUG [2019-09-12 23:10:37]  Attempt 1 to execute request
+178504274 DEBUG [2019-09-12 23:10:37]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178504274 DEBUG [2019-09-12 23:10:37]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "Accept: application/json[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "Accept-Encoding: gzip[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "Host: localhost:8100[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "Connection: Keep-Alive[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]   >> "[\r][\n]"
+178504274 DEBUG [2019-09-12 23:10:37]  >> GET /eureka/apps/delta HTTP/1.1
+178504274 DEBUG [2019-09-12 23:10:37]  >> Accept: application/json
+178504274 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Name: DefaultClient
+178504274 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Version: 1.4
+178504274 DEBUG [2019-09-12 23:10:37]  >> DiscoveryIdentity-Id: 192.168.1.36
+178504274 DEBUG [2019-09-12 23:10:37]  >> Accept-Encoding: gzip
+178504274 DEBUG [2019-09-12 23:10:37]  >> Host: localhost:8100
+178504274 DEBUG [2019-09-12 23:10:37]  >> Connection: Keep-Alive
+178504274 DEBUG [2019-09-12 23:10:37]  >> User-Agent: Java-EurekaClient/v1.8.6
+178504275 DEBUG [2019-09-12 23:10:37]   << "HTTP/1.1 200 [\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]   << "Content-Encoding: gzip[\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]   << "Content-Type: application/json[\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]   << "Content-Length: 87[\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]   << "Date: Thu, 12 Sep 2019 15:10:37 GMT[\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]   << "[\r][\n]"
+178504275 DEBUG [2019-09-12 23:10:37]  Receiving response: HTTP/1.1 200 
+178504275 DEBUG [2019-09-12 23:10:37]  << HTTP/1.1 200 
+178504275 DEBUG [2019-09-12 23:10:37]  << Content-Encoding: gzip
+178504275 DEBUG [2019-09-12 23:10:37]  << Content-Type: application/json
+178504275 DEBUG [2019-09-12 23:10:37]  << Content-Length: 87
+178504275 DEBUG [2019-09-12 23:10:37]  << Date: Thu, 12 Sep 2019 15:10:37 GMT
+178504275 DEBUG [2019-09-12 23:10:37]  Connection can be kept alive indefinitely
+178504276 DEBUG [2019-09-12 23:10:37]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r]L[0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0]Y[0xc4][0x96]T[0x0][0x0][0x0]"
+178504276 DEBUG [2019-09-12 23:10:37]  Released connection is reusable.
+178504276 DEBUG [2019-09-12 23:10:37]  Releasing connection [{}->http://localhost:8100][null]
+178504276 DEBUG [2019-09-12 23:10:37]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178504276 DEBUG [2019-09-12 23:10:37]  Notifying no-one, there are no waiting threads
+178512105 DEBUG [2019-09-12 23:10:45]  Closing expired connections
+178514449 DEBUG [2019-09-12 23:10:48]  Closing expired connections
+178514525 DEBUG [2019-09-12 23:10:48]  Returning cached instance of singleton bean 'eurekaClient'
+178514525 DEBUG [2019-09-12 23:10:48]  Returning cached instance of singleton bean 'eurekaClient'
+178514525 DEBUG [2019-09-12 23:10:48]  Returning cached instance of singleton bean 'eurekaClient'
+178514525 DEBUG [2019-09-12 23:10:48]  Returning cached instance of singleton bean 'eurekaClient'
+178527545 DEBUG [2019-09-12 23:11:01]  Closing connections idle longer than 30000 SECONDS
+178527545 DEBUG [2019-09-12 23:11:01]  Closing connections idle longer than 30000 SECONDS
+178528449 DEBUG [2019-09-12 23:11:02]  Closing connections idle longer than -1 SECONDS
+178528449 DEBUG [2019-09-12 23:11:02]  Closing connections idle longer than 0 SECONDS
+178528449 DEBUG [2019-09-12 23:11:02]  Closing connection last used @ Thu Sep 12 23:10:37 CST 2019
+178528449 DEBUG [2019-09-12 23:11:02]  Deleting connection [{}->http://localhost:8100][null]
+178528449 DEBUG [2019-09-12 23:11:02]  Connection 0.0.0.0:63197<->127.0.0.1:8100 closed
+178533357 DEBUG [2019-09-12 23:11:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178533357 DEBUG [2019-09-12 23:11:07]  [{}->http://localhost:8100] total kept alive: 0, total issued: 0, total allocated: 0 out of 200
+178533357 DEBUG [2019-09-12 23:11:07]  No free connections [{}->http://localhost:8100][null]
+178533357 DEBUG [2019-09-12 23:11:07]  Available capacity: 50 out of 50 [{}->http://localhost:8100][null]
+178533357 DEBUG [2019-09-12 23:11:07]  Creating new connection [{}->http://localhost:8100]
+178533358 DEBUG [2019-09-12 23:11:07]  Connecting to localhost:8100
+178533358 DEBUG [2019-09-12 23:11:07]  CookieSpec selected: default
+178533358 DEBUG [2019-09-12 23:11:07]  Auth cache not set in the context
+178533358 DEBUG [2019-09-12 23:11:07]  Target auth state: UNCHALLENGED
+178533358 DEBUG [2019-09-12 23:11:07]  Proxy auth state: UNCHALLENGED
+178533358 DEBUG [2019-09-12 23:11:07]  Attempt 1 to execute request
+178533358 DEBUG [2019-09-12 23:11:07]  Sending request: PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178533358 DEBUG [2019-09-12 23:11:07]   >> "PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "Content-Length: 0[\r][\n]"
+178533358 DEBUG [2019-09-12 23:11:07]   >> "Host: localhost:8100[\r][\n]"
+178533359 DEBUG [2019-09-12 23:11:07]   >> "Connection: Keep-Alive[\r][\n]"
+178533359 DEBUG [2019-09-12 23:11:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178533359 DEBUG [2019-09-12 23:11:07]   >> "[\r][\n]"
+178533359 DEBUG [2019-09-12 23:11:07]  >> PUT /eureka/apps/APP-LS-PORTAL-WEB/DESKTOP-1CUSMVC:app-ls-portal-web:80?status=UP&lastDirtyTimestamp=1568122566625 HTTP/1.1
+178533359 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Name: DefaultClient
+178533359 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Version: 1.4
+178533359 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178533359 DEBUG [2019-09-12 23:11:07]  >> Accept-Encoding: gzip
+178533359 DEBUG [2019-09-12 23:11:07]  >> Content-Length: 0
+178533359 DEBUG [2019-09-12 23:11:07]  >> Host: localhost:8100
+178533359 DEBUG [2019-09-12 23:11:07]  >> Connection: Keep-Alive
+178533359 DEBUG [2019-09-12 23:11:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178533362 DEBUG [2019-09-12 23:11:07]   << "HTTP/1.1 200 [\r][\n]"
+178533362 DEBUG [2019-09-12 23:11:07]   << "Content-Type: application/xml[\r][\n]"
+178533362 DEBUG [2019-09-12 23:11:07]   << "Content-Length: 0[\r][\n]"
+178533362 DEBUG [2019-09-12 23:11:07]   << "Date: Thu, 12 Sep 2019 15:11:07 GMT[\r][\n]"
+178533362 DEBUG [2019-09-12 23:11:07]   << "[\r][\n]"
+178533362 DEBUG [2019-09-12 23:11:07]  Receiving response: HTTP/1.1 200 
+178533362 DEBUG [2019-09-12 23:11:07]  << HTTP/1.1 200 
+178533362 DEBUG [2019-09-12 23:11:07]  << Content-Type: application/xml
+178533362 DEBUG [2019-09-12 23:11:07]  << Content-Length: 0
+178533362 DEBUG [2019-09-12 23:11:07]  << Date: Thu, 12 Sep 2019 15:11:07 GMT
+178533362 DEBUG [2019-09-12 23:11:07]  Connection can be kept alive indefinitely
+178533362 DEBUG [2019-09-12 23:11:07]  Released connection is reusable.
+178533362 DEBUG [2019-09-12 23:11:07]  Releasing connection [{}->http://localhost:8100][null]
+178533362 DEBUG [2019-09-12 23:11:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178533362 DEBUG [2019-09-12 23:11:07]  Notifying no-one, there are no waiting threads
+178534282 DEBUG [2019-09-12 23:11:07]  Get connection: {}->http://localhost:8100, timeout = 5000
+178534282 DEBUG [2019-09-12 23:11:07]  [{}->http://localhost:8100] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+178534283 DEBUG [2019-09-12 23:11:07]  Getting free connection [{}->http://localhost:8100][null]
+178534283 DEBUG [2019-09-12 23:11:07]  Stale connection check
+178534285 DEBUG [2019-09-12 23:11:07]  CookieSpec selected: default
+178534285 DEBUG [2019-09-12 23:11:07]  Auth cache not set in the context
+178534285 DEBUG [2019-09-12 23:11:07]  Target auth state: UNCHALLENGED
+178534285 DEBUG [2019-09-12 23:11:07]  Proxy auth state: UNCHALLENGED
+178534285 DEBUG [2019-09-12 23:11:07]  Attempt 1 to execute request
+178534285 DEBUG [2019-09-12 23:11:07]  Sending request: GET /eureka/apps/delta HTTP/1.1
+178534285 DEBUG [2019-09-12 23:11:07]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "Accept: application/json[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "DiscoveryIdentity-Id: 192.168.1.36[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "Accept-Encoding: gzip[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "Host: localhost:8100[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "Connection: Keep-Alive[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "User-Agent: Java-EurekaClient/v1.8.6[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]   >> "[\r][\n]"
+178534285 DEBUG [2019-09-12 23:11:07]  >> GET /eureka/apps/delta HTTP/1.1
+178534285 DEBUG [2019-09-12 23:11:07]  >> Accept: application/json
+178534285 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Name: DefaultClient
+178534285 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Version: 1.4
+178534285 DEBUG [2019-09-12 23:11:07]  >> DiscoveryIdentity-Id: 192.168.1.36
+178534285 DEBUG [2019-09-12 23:11:07]  >> Accept-Encoding: gzip
+178534285 DEBUG [2019-09-12 23:11:07]  >> Host: localhost:8100
+178534285 DEBUG [2019-09-12 23:11:07]  >> Connection: Keep-Alive
+178534285 DEBUG [2019-09-12 23:11:07]  >> User-Agent: Java-EurekaClient/v1.8.6
+178534287 DEBUG [2019-09-12 23:11:07]   << "HTTP/1.1 200 [\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]   << "Content-Encoding: gzip[\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]   << "Content-Type: application/json[\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]   << "Content-Length: 87[\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]   << "Date: Thu, 12 Sep 2019 15:11:07 GMT[\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]   << "[\r][\n]"
+178534287 DEBUG [2019-09-12 23:11:07]  Receiving response: HTTP/1.1 200 
+178534287 DEBUG [2019-09-12 23:11:07]  << HTTP/1.1 200 
+178534287 DEBUG [2019-09-12 23:11:07]  << Content-Encoding: gzip
+178534287 DEBUG [2019-09-12 23:11:07]  << Content-Type: application/json
+178534287 DEBUG [2019-09-12 23:11:07]  << Content-Length: 87
+178534287 DEBUG [2019-09-12 23:11:07]  << Date: Thu, 12 Sep 2019 15:11:07 GMT
+178534287 DEBUG [2019-09-12 23:11:07]  Connection can be kept alive indefinitely
+178534287 DEBUG [2019-09-12 23:11:07]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xab]VJ,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf]+V[0xb2][0xaa]V*K-*[0x6][0xb1][0xe3][0xe3]SRsJ[0x12][0x95][0xac][0x94][0xc][\r]L[0x94]t@[0xea][0x80]b[0x19][0x89][0xc5][0x19][0xc9][0xf9])[0xa9]@[0xe1][0xd0][0x80]x[0xe3]x[0x88][0x4][0xcc][0x0]%[0xab][0xe8][0xd8][0xda]Z[0x0]Y[0xc4][0x96]T[0x0][0x0][0x0]"
+178534288 DEBUG [2019-09-12 23:11:07]  Released connection is reusable.
+178534288 DEBUG [2019-09-12 23:11:07]  Releasing connection [{}->http://localhost:8100][null]
+178534288 DEBUG [2019-09-12 23:11:07]  Pooling connection [{}->http://localhost:8100][null]; keep alive indefinitely
+178534288 DEBUG [2019-09-12 23:11:07]  Notifying no-one, there are no waiting threads

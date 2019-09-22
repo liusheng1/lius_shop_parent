@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lius_shop_service_api_auth" />
         <module name="lius_shop_job" />
         <module name="lius_shop_common_core" />
         <module name="lius_shop_service_api_goods" />
         <module name="lius_shop_basics_springcloud_zuul" />
         <module name="lius_shop_service_api_order" />
         <module name="lius_shop_pay" />
+        <module name="lius_shop_common_core_web" />
         <module name="lius_shop_service_api_weixin" />
         <module name="lius_shop_basics_elk_kafka" />
         <module name="lius_shop_api_member_dto" />
@@ -22,7 +24,6 @@
         <module name="lius_shop_service_api_member" />
         <module name="lius_shop_portal_web" />
         <module name="lius_shop_service_api_member_impl" />
-        <module name="lius_shop_service_api_auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +47,7 @@
       <module name="lius_shop_basics_xxl_sso_server" options="-parameters" />
       <module name="lius_shop_common" options="-parameters" />
       <module name="lius_shop_common_core" options="-parameters" />
+      <module name="lius_shop_common_core_web" options="-parameters" />
       <module name="lius_shop_job" options="-parameters" />
       <module name="lius_shop_pay" options="-parameters" />
       <module name="lius_shop_portal" options="-parameters" />

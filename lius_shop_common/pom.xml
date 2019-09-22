@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>lius_shop_common_core</module>
+        <module>lius_shop_common_core_web</module>
     </modules>
     <dependencies>
         <!-- mybatis相关依赖 -->

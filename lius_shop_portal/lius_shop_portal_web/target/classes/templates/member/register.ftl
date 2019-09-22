@@ -59,28 +59,38 @@
 						required lay-verify="required" value="${(registerVo.mobile)!''}"
 						name="mobile" placeholder="请输入手机号码" class="layui-input">
 				</div>
-
+				<div class="layui-input-block login">
+					<i class="layui-icon layui-icon-username"></i> <input type="text"
+					required lay-verify="required" value="${(registerVo.userName)!''}"
+					name="userName" placeholder="请输入用户名" class="layui-input">
+				</div>
 				<div class="layui-input-block login" style="margin-top: 12px;">
 					<i class="layui-icon layui-icon-vercode"></i> <input
 						type="password" required lay-verify="required" name="password"
 						value="${(registerVo.password)!''}" placeholder="请输入密码"
 						class="layui-input">
 				</div>
-
-
-				<div class="layui-input-block-weixinQRcode"
-					style="text-align: center;">
-					<img alt="" src="http://static.itmayiedu.com/1513928038043.jpg">
-
-					<div style="text-align: center; font-size: 14px; color: #FF5722;">
-						关注微信公众号,发送手机号码可获得注册码</div>
+				<div class="layui-input-block login" style="margin-top: 12px;">
+					<i class="layui-icon layui-icon-male"></i> <input
+							type="email" required lay-verify="required" name="email"
+							value="${(registerVo.email)!''}" placeholder="请输入邮箱"
+							class="layui-input">
 				</div>
+
+
+<#--				<div class="layui-input-block-weixinQRcode"-->
+<#--					style="text-align: center;">-->
+<#--					<img alt="" src="http://static.itmayiedu.com/1513928038043.jpg">-->
+
+<#--					<div style="text-align: center; font-size: 14px; color: #FF5722;">-->
+<#--						关注微信公众号,发送手机号码可获得注册码</div>-->
+<#--				</div>-->
 
 
 				<div class="layui-input-block login" style="margin-top: 12px;">
 					<i class="layui-icon layui-icon-vercode"></i> <input
 						value="${(registerVo.registCode)!''}" name="registCode"
-						type="text" required lay-verify="required" placeholder="请输入微信注册码"
+						type="text" required lay-verify="required" placeholder="请输入注册码"
 						class="layui-input">
 				</div>
 

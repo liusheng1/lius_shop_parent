@@ -26,8 +26,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implements MemberRegisterService {
     @Autowired
     private UserMapper userMapper;
-    @Autowired
-    private VerificaCodeServiceFeign verificaCodeServiceFeign;
+//    @Autowired
+//    private VerificaCodeServiceFeign verificaCodeServiceFeign;
 
     @Transactional
     public BaseResponse<JSONObject> register(@RequestBody UserInDTO userInDTO, @RequestParam String registCode) {

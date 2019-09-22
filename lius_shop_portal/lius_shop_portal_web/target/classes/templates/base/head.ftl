@@ -16,7 +16,7 @@
      <#if desensMobile??>
          <a href="">${desensMobile}</a>
        <a href="">我的订单</a>
-       <a href="/exit">退出</a>
+       <a href="exit">退出</a>
       <#else >
           <a href="login">登录</a>
      </#if>

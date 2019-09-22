@@ -128,4 +128,36 @@ public class MemberLoginServiceImpl extends BaseApiService implements MemberLogi
         }
 
     }
+
+    @Override
+    public BaseResponse<JSONObject> exit(@RequestBody String token) {
+        //1.验证参数
+        if (token == null) {
+            return setResultError("token不存在");
+        }
+        //2.删除token
+        TransactionStatus transactionStatus = null;
+        try {
+            transactionStatus = redisDataSoureceTransaction.begin();
+            // 3.清除之前的token
+            generateToken.removeToken(token);
+            int updateTokenAvailability = userTokenMapper.updateTokenAvailability(token);
+            if (updateTokenAvailability < 0) {
+                log.error("用户数据状态修改失败 ，开始回滚");
+                redisDataSoureceTransaction.rollback(transactionStatus);
+                log.error("用户数据状态修改失败 ，回滚成功");
+                return setResultError("系统错误");
+            }
+
+        } catch (Exception ex) {
+            try {
+                redisDataSoureceTransaction.rollback(transactionStatus);
+            } catch (Exception e) {
+                log.error("数据回滚失败");;
+            }
+
+        }
+        JSONObject data = new JSONObject();
+        return setResultSuccess(data);
+    }
 }
