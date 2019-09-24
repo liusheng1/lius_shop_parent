@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lius_shop_service_api_auth" />
+        <module name="lius_shop_unionpay_plugin" />
+        <module name="lius_shop_service_api_pay_impl" />
         <module name="lius_shop_job" />
         <module name="lius_shop_common_core" />
         <module name="lius_shop_service_api_goods" />
         <module name="lius_shop_basics_springcloud_zuul" />
         <module name="lius_shop_service_api_order" />
-        <module name="lius_shop_pay" />
         <module name="lius_shop_common_core_web" />
         <module name="lius_shop_service_api_weixin" />
         <module name="lius_shop_basics_elk_kafka" />
         <module name="lius_shop_api_member_dto" />
         <module name="lius_shop_service_api_weixin_impl" />
+        <module name="lius_shop_api_pay_dto" />
         <module name="lius_shop_basics_xxl_sso_server" />
         <module name="lius_shop_service_api_pay" />
         <module name="lius_shop_basics_springcloud_eureka" />
@@ -31,6 +33,7 @@
       <module name="lius_shop_job" target="1.8" />
       <module name="lius_shop_pay" target="1.8" />
       <module name="lius_shop_portal" target="1.8" />
+      <module name="liusshoppayplugin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="EclipseCompilerSettings">
@@ -40,6 +43,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lius_shop_api_dto" options="" />
       <module name="lius_shop_api_member_dto" options="-parameters" />
+      <module name="lius_shop_api_pay_dto" options="-parameters" />
       <module name="lius_shop_basics" options="" />
       <module name="lius_shop_basics_elk_kafka" options="-parameters" />
       <module name="lius_shop_basics_springcloud_eureka" options="-parameters" />
@@ -59,8 +63,11 @@
       <module name="lius_shop_service_api_member_impl" options="-parameters" />
       <module name="lius_shop_service_api_order" options="-parameters" />
       <module name="lius_shop_service_api_pay" options="-parameters" />
+      <module name="lius_shop_service_api_pay_impl" options="-parameters" />
       <module name="lius_shop_service_api_weixin" options="-parameters" />
       <module name="lius_shop_service_api_weixin_impl" options="-parameters" />
+      <module name="lius_shop_unionpay_plugin" options="-parameters" />
+      <module name="liusshoppayplugin" options="-parameters" />
     </option>
   </component>
 </project>

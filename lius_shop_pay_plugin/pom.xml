@@ -9,7 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lius_shop_pay</artifactId>
+    <artifactId>lius_shop_pay_plugin</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>lius_shop_unionpay_plugin</module>
+    </modules>
 
 
 </project>

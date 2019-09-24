@@ -14,6 +14,7 @@
     <modules>
         <module>lius_shop_service_api_member_impl</module>
         <module>lius_shop_service_api_weixin_impl</module>
+        <module>lius_shop_service_api_pay_impl</module>
     </modules>
     <dependencies>
         <!-- springcloud feign组件 -->
