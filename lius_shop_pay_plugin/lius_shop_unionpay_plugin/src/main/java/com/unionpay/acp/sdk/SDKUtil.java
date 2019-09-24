@@ -15,36 +15,16 @@
  */
 package com.unionpay.acp.sdk;
 
-import static com.unionpay.acp.sdk.SDKConstants.CERTTYPE_01;
-import static com.unionpay.acp.sdk.SDKConstants.CERTTYPE_02;
-import static com.unionpay.acp.sdk.SDKConstants.POINT;
-import static com.unionpay.acp.sdk.SDKConstants.SIGNMETHOD_RSA;
-import static com.unionpay.acp.sdk.SDKConstants.SIGNMETHOD_SHA256;
-import static com.unionpay.acp.sdk.SDKConstants.SIGNMETHOD_SM3;
-import static com.unionpay.acp.sdk.SDKConstants.VERSION_5_0_0;
-import static com.unionpay.acp.sdk.SDKConstants.VERSION_1_0_0;
-import static com.unionpay.acp.sdk.SDKConstants.VERSION_5_1_0;
-import static com.unionpay.acp.sdk.SDKConstants.VERSION_5_0_1;
-import static com.unionpay.acp.sdk.SDKConstants.param_signMethod;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.security.cert.X509Certificate;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
-import java.util.Set;
-import java.util.TreeMap;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
+
+import static com.unionpay.acp.sdk.SDKConstants.*;
 
 /**
  * 
@@ -582,8 +562,9 @@ public class SDKUtil {
 			String encoding) {
 		String strCert = resData.get(SDKConstants.param_encryptPubKeyCert);
 		String certType = resData.get(SDKConstants.param_certType);
-		if (isEmpty(strCert) || isEmpty(certType))
+		if (isEmpty(strCert) || isEmpty(certType)) {
 			return -1;
+		}
 		X509Certificate x509Cert = CertUtil.genCertificateByStr(strCert);
 		if (CERTTYPE_01.equals(certType)) {
 			// 更新敏感信息加密公钥
@@ -593,11 +574,13 @@ public class SDKUtil {
 				String localCertPath = SDKConfig.getConfig().getEncryptCertPath();
 				String newLocalCertPath = genBackupName(localCertPath);
 				// 1.将本地证书进行备份存储
-				if (!copyFile(localCertPath, newLocalCertPath))
+				if (!copyFile(localCertPath, newLocalCertPath)) {
 					return -1;
+				}
 				// 2.备份成功,进行新证书的存储
-				if (!writeFile(localCertPath, strCert, encoding))
+				if (!writeFile(localCertPath, strCert, encoding)) {
 					return -1;
+				}
 				LogUtil.writeLog("save new encryptPubKeyCert success");
 				CertUtil.resetEncryptCertPublicKey();
 				return 1;
@@ -675,14 +658,18 @@ public class SDKUtil {
 			LogUtil.writeErrorLog("CopyFile fail", e);
 		} finally {
 			try {
-				if (null != fin)
+				if (null != fin) {
 					fin.close();
-				if (null != fout)
+				}
+				if (null != fout) {
 					fout.close();
-				if (null != fcin)
+				}
+				if (null != fcin) {
 					fcin.close();
-				if (null != fcout)
+				}
+				if (null != fcout) {
 					fcout.close();
+				}
 			} catch (IOException ex) {
 				LogUtil.writeErrorLog("Releases any system resources fail", ex);
 			}
@@ -727,10 +714,12 @@ public class SDKUtil {
 			return false;
 		} finally {
 			try {
-				if (null != fout)
+				if (null != fout) {
 					fout.close();
-				if (null != fcout)
+				}
+				if (null != fcout) {
 					fcout.close();
+				}
 			} catch (IOException ex) {
 				LogUtil.writeErrorLog("Releases any system resources fail", ex);
 				return false;
@@ -747,8 +736,9 @@ public class SDKUtil {
 	 * @return
 	 */
 	public static String genBackupName(String fileName) {
-		if (isEmpty(fileName))
+		if (isEmpty(fileName)) {
 			return "";
+		}
 		int i = fileName.lastIndexOf(POINT);
 		String leftFileName = fileName.substring(0, i);
 		String rightFileName = fileName.substring(i + 1);

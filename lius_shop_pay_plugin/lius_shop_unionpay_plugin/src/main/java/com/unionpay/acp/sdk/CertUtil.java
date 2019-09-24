@@ -499,8 +499,9 @@ public class CertUtil {
 			LogUtil.writeErrorLog("getKeyInfo Error", e);
 			return null;
 		} finally {
-			if(null!=fis)
+			if(null!=fis) {
 				fis.close();
+			}
 		}
 	}
 	
@@ -626,8 +627,9 @@ public class CertUtil {
 		if ((tDN != null)) {
 			String tSplitStr[] = tDN.substring(tDN.indexOf("CN=")).split("@");
 			if (tSplitStr != null && tSplitStr.length > 2
-					&& tSplitStr[2] != null)
+					&& tSplitStr[2] != null) {
 				tPart = tSplitStr[2];
+			}
 		}
 		return tPart;
 	}
